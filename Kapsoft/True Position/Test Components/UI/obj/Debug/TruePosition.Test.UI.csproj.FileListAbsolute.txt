@@ -1,0 +1,5 @@
+C:\Development\Kapsoft\True Position\Test Components\UI\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.UI.dll
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.UI.pdb
+C:\Development\Kapsoft\True Position\Test Components\UI\obj\Debug\TruePosition.Test.UI.dll
+C:\Development\Kapsoft\True Position\Test Components\UI\obj\Debug\TruePosition.Test.UI.pdb

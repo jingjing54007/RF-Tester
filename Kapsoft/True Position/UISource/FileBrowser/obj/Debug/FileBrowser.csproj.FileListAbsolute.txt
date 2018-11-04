@@ -1,0 +1,16 @@
+C:\Monty HIT Work\Src\FileBrowser\bin\Debug\FileBrowser.dll
+C:\Monty HIT Work\Src\FileBrowser\bin\Debug\FileBrowser.pdb
+C:\Monty HIT Work\Src\FileBrowser\obj\Debug\ResolveAssemblyReference.cache
+C:\Monty HIT Work\Src\FileBrowser\obj\Debug\FileBrowser.Browser.resources
+C:\Monty HIT Work\Src\FileBrowser\obj\Debug\FileBrowser.Properties.Resources.resources
+C:\Monty HIT Work\Src\FileBrowser\obj\Debug\FileBrowser.csproj.GenerateResource.Cache
+C:\Monty HIT Work\Src\FileBrowser\obj\Debug\FileBrowser.dll
+C:\Monty HIT Work\Src\FileBrowser\obj\Debug\FileBrowser.pdb
+C:\Development\Kapsoft\True Position\UISource\FileBrowser\bin\Debug\FileBrowser.dll
+C:\Development\Kapsoft\True Position\UISource\FileBrowser\bin\Debug\FileBrowser.pdb
+C:\Development\Kapsoft\True Position\UISource\FileBrowser\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\UISource\FileBrowser\obj\Debug\FileBrowser.Browser.resources
+C:\Development\Kapsoft\True Position\UISource\FileBrowser\obj\Debug\FileBrowser.Properties.Resources.resources
+C:\Development\Kapsoft\True Position\UISource\FileBrowser\obj\Debug\FileBrowser.csproj.GenerateResource.Cache
+C:\Development\Kapsoft\True Position\UISource\FileBrowser\obj\Debug\FileBrowser.dll
+C:\Development\Kapsoft\True Position\UISource\FileBrowser\obj\Debug\FileBrowser.pdb

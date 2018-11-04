@@ -1,0 +1,35 @@
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 8
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>

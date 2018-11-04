@@ -1,0 +1,101 @@
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.AboutDialog.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyDoc.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyOutputWindow.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyPropertyWindow.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummySolutionExplorer.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyTaskList.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyToolbox.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.MainForm.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.MainForm2.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.Customization.Resources.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.Customization.Strings.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.TestMatrix.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.ToolWindow.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.csproj.GenerateResource.Cache
+C:\Doc Panel Suite\Src\DockSample\bin\Debug\license.txt
+C:\Doc Panel Suite\Src\DockSample\bin\Debug\DockSample.exe
+C:\Doc Panel Suite\Src\DockSample\bin\Debug\DockSample.pdb
+C:\Doc Panel Suite\Src\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Doc Panel Suite\Src\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.Properties.Resources.resources
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.exe.licenses
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.exe
+C:\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.pdb
+C:\Doc Panel Suite\Src\DockSample\bin\Debug\NationalInstruments.UI.WindowsForms.dll
+C:\Doc Panel Suite\Src\DockSample\bin\Debug\NationalInstruments.UI.WindowsForms.xml
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.exe
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.pdb
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\license.txt
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\DockSample.exe
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\DockSample.pdb
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.AboutDialog.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyDoc.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyOutputWindow.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyPropertyWindow.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummySolutionExplorer.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyTaskList.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.DummyToolbox.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.MainForm.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.Properties.Resources.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.MainForm2.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.Customization.Resources.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.Customization.Strings.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.ToolWindow.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.csproj.GenerateResource.Cache
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.exe.licenses
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\TruePosition.Test.DataLayer.dll
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\TruePosition.Test.VBHelpers.dll
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\TruePosition.Test.DataLayer.pdb
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\TruePosition.Test.VBHelpers.pdb
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\TruePosition.Test.VBHelpers.xml
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\TruePosition.Test.XML.dll
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\bin\Debug\TruePosition.Test.XML.pdb
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\DockSample\obj\Debug\DockSample.LoadTestArgs.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.AboutDialog.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.DummyDoc.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.DummyOutputWindow.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\Docksample.DummyPropertyWindow.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.DummySolutionExplorer.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.DummyTaskList.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.DummyToolbox.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.MainForm.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.Properties.Resources.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.Customization.Resources.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.Customization.Strings.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.LoadTestArgs.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.ToolWindow.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.csproj.GenerateResource.Cache
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.exe.licenses
+C:\Monty HIT Work\Src\DockSample\bin\Debug\license.txt
+C:\Monty HIT Work\Src\DockSample\bin\Debug\DockSample.exe
+C:\Monty HIT Work\Src\DockSample\bin\Debug\DockSample.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.DataLayer.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.IO.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.UI.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.XML.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.QF.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\qf4net.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.VBHelpers.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.Process.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.DataLayer.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.QF.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.IO.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\qf4net.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\qf4net.xml
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.UI.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.XML.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.VBHelpers.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.VBHelpers.xml
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.Process.pdb
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.exe
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.pdb
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.DummyHITExplorer.resources
+C:\Monty HIT Work\Src\DockSample\bin\Debug\HITExplorer.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\HITExplorer.pdb

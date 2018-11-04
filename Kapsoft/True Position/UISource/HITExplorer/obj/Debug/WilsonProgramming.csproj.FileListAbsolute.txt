@@ -1,0 +1,7 @@
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\bin\Debug\HITExplorer.dll
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\bin\Debug\HITExplorer.pdb
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\ResolveAssemblyReference.cache
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\WilsonProgramming.ExplorerTreeView.resources
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\WilsonProgramming.csproj.GenerateResource.Cache
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\HITExplorer.dll
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\HITExplorer.pdb

@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Type="Bootup" Name="Test 21a">
+  <!--<Step>
+    <Actor Name ="LaunchTest">
+      <Command Type="MAP">
+        <Format>C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\bin\Debug\launchtest.exe</Format>
+      </Command>
+      <Type>Process</Type>
+      <SubType></SubType>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>-->
+  <!-- Test 21a Step -->
+  <Step>
+    <Actor Name ="Test21aOutput">
+      <Command Type="Recorder">
+        <FilenameFormat>{Global.LogFileFolder}\{0:MM-dd-yyy}_{1:hhmmss}_GATE_DATA_FILE.LOG</FilenameFormat>
+        <EntryFormat Style="PerLine">{0:MM/dd/yyyy} {1:hh:mm:ss tt} SNMP_tpLmuDataPathPwrMeasTest {Global.LMU1_ID} {2} 1 {3} {Response[5]} {Command[5]} {4} {Response[*]}</EntryFormat>
+        <Parameter Prompt="Date" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+        <Parameter Prompt="Time" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+        <Parameter Prompt="Test #" Access="Show">
+          <Value>6</Value>
+        </Parameter>
+        <Parameter Prompt="Port #" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="Power" Access="Show">
+          <Value>100</Value>
+        </Parameter>
+      </Command>
+      <Type>Recorder</Type>
+      <SubType>File</SubType>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like 'BIT 6*'</Expression>
+          <Expression>value lenle 30</Expression>
+          <Destination>
+            <Name>Command</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like 'BIT 6*Noise Level:*'</Expression>
+          <Destination>
+            <Name>Response</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>BIT 6 4 2 876 1 3 0 2</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="">
+      <Element>
+        <KeyExpression>value like '*Noise Level:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression></Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like '*Noise Floor:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression></Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'Result:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression></Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>BIT 6 4 2 907.8 2 3 0 2</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="">
+      <Element>
+        <KeyExpression>value like '*Noise Level:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression></Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like '*Noise Floor:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression></Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'Result:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression></Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>    
+    </Response>
+  </Step>
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>BIT 6 4 2 876 3 3 0 2</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>false</CompleteOnTimeout>
+    <Response Delimiter="" Header="" Trailer="">
+      <Element>
+        <KeyExpression>value like 'BIT 6*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like '*Noise Level:*'</Expression>
+          <Expression>value like '*Noise Floor:*'</Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>BIT 6 4 2 876 4 3 0 2</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>false</CompleteOnTimeout>
+    <Response Delimiter="" Header="" Trailer="">
+      <Element>
+        <KeyExpression>value like 'BIT 6*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like '*Noise Level:*'</Expression>
+          <Expression>value like '*Noise Floor:*'</Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+</Test>

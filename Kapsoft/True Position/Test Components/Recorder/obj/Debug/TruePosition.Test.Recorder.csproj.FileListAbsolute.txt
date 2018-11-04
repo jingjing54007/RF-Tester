@@ -1,0 +1,10 @@
+C:\Development\Kapsoft\True Position\Test Components\Recorder\bin\Debug\TruePosition.Test.Recorder.dll
+C:\Development\Kapsoft\True Position\Test Components\Recorder\bin\Debug\TruePosition.Test.Recorder.pdb
+C:\Development\Kapsoft\True Position\Test Components\Recorder\bin\Debug\TruePosition.Test.DataLayer.dll
+C:\Development\Kapsoft\True Position\Test Components\Recorder\bin\Debug\TruePosition.Test.VBHelpers.dll
+C:\Development\Kapsoft\True Position\Test Components\Recorder\bin\Debug\TruePosition.Test.VBHelpers.pdb
+C:\Development\Kapsoft\True Position\Test Components\Recorder\bin\Debug\TruePosition.Test.VBHelpers.xml
+C:\Development\Kapsoft\True Position\Test Components\Recorder\bin\Debug\TruePosition.Test.DataLayer.pdb
+C:\Development\Kapsoft\True Position\Test Components\Recorder\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Recorder\obj\Debug\TruePosition.Test.Recorder.dll
+C:\Development\Kapsoft\True Position\Test Components\Recorder\obj\Debug\TruePosition.Test.Recorder.pdb

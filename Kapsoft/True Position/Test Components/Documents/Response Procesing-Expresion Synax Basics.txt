@@ -1,0 +1,132 @@
+1. Basic XML Schema:
+
+<TestCollections>
+  <TestCollection Name="">
+    <TestCase Type="" Name="">
+      <TestStep Type="">
+        <Command></Command>
+        <Response Delimiter="" Header="" Trailer="">
+          <Element>
+            <KeyExpression></KeyExpression>
+            <Expected Trim="">
+              <KeyExpression></KeyExpression>
+              <Expression></Expression>
+              <Destination>
+                <Name></Name>
+                <Default></Default>
+              </Destination>
+              <FailureMessage></FailureMessage>
+            </Expected>
+          </Element>
+        </Response>
+        <Timeout></Timeout>
+        <BeginState></BeginState>
+        <EndState></EndState>
+        <Retries></Retries>
+      </TestStep>
+    </TestCase>  
+  </TestCollection>
+</TestCollections>
+
+
+2. Format
+
+TestCollections (1)
+   TestCollection (1...n)
+      TestCase (1...n)
+         TestStep (1...n)
+	    Command (1)
+	    Timeout (1)
+	    BeginState (1)
+	    EndState (1)
+	    Retries (1)
+	    Element (1...n)
+	       KeyExpression (1)
+	       Expected (1...n)
+	          KeyExpression (1)
+		  Expression (1...n)
+		  Destination (1)
+		  FailureMessage (1)
+
+
+3. Attribute Restrictions
+
+In genereal	- Attributes cannot contain < or > characters
+		- Must be expressed as &lt; (less than) and &gt; (greater than)
+
+Names 		Must be unqiue
+
+Type		One of the following:
+		Bootup
+        	Alarms
+	        SNR
+        	TwoToneResponse
+	        PhaseNoise
+	        DataIntegrity
+	        NoiseFloor
+	        DDCTuning
+	        MiniRLS
+        	ConfigAttenuator
+
+Delimiters 	- Cannot contain control characters or escape sequences
+		- Must be expressed in the format &#xHH;, where HH is the hex 
+
+Trim		true/false
+
+
+4. Element Value Restrictions
+
+Key Expression	Test System Expression (see below)
+
+Expresion	Test System Expression (see below)
+
+Timeout		Seconds
+
+BeginState	One of the following:
+EndState	BOOT
+		DSHELL
+        	TSHELL
+        	ENG
+
+
+5. Test System Expression
+
+Grammar diagram for expression syntax.
+
+
+comparision-expression:
+  value   comparison-clause
+
+comparison-clause
+  numeric-operator  numeric-expression
+  string-operator   pattern-matching-expression
+  boolean-operator
+
+numeric-operator
+  =
+  !=
+  <>
+  <
+  >
+  <=
+  >=
+  len
+  lenle
+  lenge
+  
+
+string-operator
+  like
+  not like
+
+boolean-operator
+  same
+  not same
+  validesn
+
+numeric-expression
+  integer
+
+pattern-matching-expression
+  'VB or SQL like operator pattern' 
+  

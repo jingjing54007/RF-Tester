@@ -1,0 +1,227 @@
+C:\Monty HIT Work\Src\DockSample\bin\Debug\license.txt
+C:\Monty HIT Work\Src\DockSample\bin\Debug\DockSample.exe
+C:\Monty HIT Work\Src\DockSample\bin\Debug\DockSample.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.DataLayer.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.IO.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.Process.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.QF.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.UI.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.XML.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\qf4net.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.VBHelpers.dll
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.IO.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.XML.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.QF.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\qf4net.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\qf4net.xml
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.UI.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.Process.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.VBHelpers.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.VBHelpers.xml
+C:\Monty HIT Work\Src\DockSample\bin\Debug\TruePosition.Test.DataLayer.pdb
+C:\Monty HIT Work\Src\DockSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.AboutDialog.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.DummyDoc.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.DummyOutputWindow.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.DummyPropertyWindow.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.DummySolutionExplorer.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.DummyTaskList.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.DummyToolbox.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.MainForm.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.Properties.Resources.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.Customization.Resources.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.DashBoard.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.Customization.Strings.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.TestSet.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.ToolWindow.resources
+C:\Monty HIT Work\Src\DockSample\obj\Debug\HITUI.csproj.GenerateResource.Cache
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.exe.licenses
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.exe
+C:\Monty HIT Work\Src\DockSample\obj\Debug\DockSample.pdb
+C:\Monty HIT Work\Src\DockSample\bin\Debug\DockSample.exe.config
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.AboutDialog.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.DummyDoc.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.DummyOutputWindow.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.DummyPropertyWindow.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.DummySolutionExplorer.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.DummyTaskList.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.DummyToolbox.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.MainForm.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.Properties.Resources.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.Customization.Resources.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.DashBoard.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.Customization.Strings.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.TestSet.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.ToolWindow.resources
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\HITUI.csproj.GenerateResource.Cache
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\DockSample.exe.licenses
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\DockSample.exe.config
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\license.txt
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\DockSample.exe
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\DockSample.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\qf4net.dll
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.VBHelpers.dll
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.IO.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.XML.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.QF.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\qf4net.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\qf4net.xml
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.UI.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.Process.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.VBHelpers.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.VBHelpers.xml
+C:\Development\Kapsoft\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.DataLayer.pdb
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\DockSample.exe
+C:\Development\Kapsoft\UISrc5-28\DockSample\obj\Debug\DockSample.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\DockSample.exe.config
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\DockSample.exe
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\DockSample.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\license.txt
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\DockSample.exe
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\DockSample.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.DataLayer.dll
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.IO.dll
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.Process.dll
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.QF.dll
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.UI.dll
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.XML.dll
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\qf4net.dll
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.VBHelpers.dll
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.IO.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.XML.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.QF.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\qf4net.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\qf4net.xml
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.UI.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.Process.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.VBHelpers.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.VBHelpers.xml
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\TruePosition.Test.DataLayer.pdb
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\ResolveAssemblyReference.cache
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.AboutDialog.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.DummyDoc.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.DummyOutputWindow.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.DummyPropertyWindow.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.DummySolutionExplorer.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.DummyTaskList.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.DummyToolbox.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.MainForm.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.Properties.Resources.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.Customization.Resources.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.DashBoard.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.Customization.Strings.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.TestSet.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.ToolWindow.resources
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\HITUI.csproj.GenerateResource.Cache
+C:\Monty HIT Work\UISrc5-28\DockSample\obj\Debug\DockSample.exe.licenses
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\Resources\error.png
+C:\Monty HIT Work\UISrc5-28\DockSample\bin\Debug\Resources\Network_ConnectTo.png
+C:\Devel\UISource\HITUI\bin\Debug\license.txt
+C:\Devel\UISource\HITUI\bin\Debug\Resources\error.png
+C:\Devel\UISource\HITUI\bin\Debug\Resources\Network_ConnectTo.png
+C:\Devel\UISource\HITUI\bin\Debug\DockSample.exe.config
+C:\Devel\UISource\HITUI\bin\Debug\DockSample.exe
+C:\Devel\UISource\HITUI\bin\Debug\DockSample.pdb
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.DataLayer.dll
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.IO.dll
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.Process.dll
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.QF.dll
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.UI.dll
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.XML.dll
+C:\Devel\UISource\HITUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Devel\UISource\HITUI\bin\Debug\qf4net.dll
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.VBHelpers.dll
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.IO.pdb
+C:\Devel\UISource\HITUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.XML.pdb
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.QF.pdb
+C:\Devel\UISource\HITUI\bin\Debug\qf4net.pdb
+C:\Devel\UISource\HITUI\bin\Debug\qf4net.xml
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.UI.pdb
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.Process.pdb
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.VBHelpers.pdb
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.VBHelpers.xml
+C:\Devel\UISource\HITUI\bin\Debug\TruePosition.Test.DataLayer.pdb
+C:\Devel\UISource\HITUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.AboutDialog.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.DummyDoc.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.DummyOutputWindow.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.DummyPropertyWindow.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.DummySolutionExplorer.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.DummyTaskList.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.DummyToolbox.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.MainForm.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.Properties.Resources.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.Customization.Resources.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.DashBoard.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.Customization.Strings.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.TestSet.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.ToolWindow.resources
+C:\Devel\UISource\HITUI\obj\Debug\HITUI.csproj.GenerateResource.Cache
+C:\Devel\UISource\HITUI\obj\Debug\DockSample.exe.licenses
+C:\Devel\UISource\HITUI\obj\Debug\DockSample.exe
+C:\Devel\UISource\HITUI\obj\Debug\DockSample.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\license.txt
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\Resources\error.png
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\Resources\Network_ConnectTo.png
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\DockSample.exe.config
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\DockSample.exe
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\DockSample.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.DataLayer.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.IO.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.Process.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.Prompt.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.QF.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.Recorder.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.UI.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.XML.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\SharpSnmpLib.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\SharpSnmpLib.Controls.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\qf4net.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.VBHelpers.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.IO.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.Prompt.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.Recorder.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\SharpSnmpLib.Controls.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\SharpSnmpLib.Controls.xml
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.XML.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.QF.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\qf4net.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\qf4net.xml
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.UI.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.Process.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.VBHelpers.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.VBHelpers.xml
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.DataLayer.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.AboutDialog.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.DummyDoc.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.DummyOutputWindow.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.DummyPropertyWindow.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.DummySolutionExplorer.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.DummyTaskList.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.DummyToolbox.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.MainForm.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.Properties.Resources.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.Customization.Resources.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.DashBoard.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.DummyLog.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.UIDisplayForm.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.Customization.Strings.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.TestSet.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.ToolWindow.resources
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\HITUI.csproj.GenerateResource.Cache
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\DockSample.exe.licenses
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\DockSample.exe
+C:\Development\Kapsoft\True Position\UISource\HITUI\obj\Debug\DockSample.pdb
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.Core.dll
+C:\Development\Kapsoft\True Position\UISource\HITUI\bin\Debug\TruePosition.Test.Core.pdb

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Test Type="Bootup" Name="Test TDOA">
+  <!-- TDOA Step -->
+  <Step>
+    <Actor Name ="SomeTDOATest">
+      <Command Type="Recorder">
+        <FilenameFormat>{Global.LogFileFolder}\LMU_TDOA_{0:MMddyy}_{1:hhmmss}_g_{Global.LMU1CommunityString}_{Global.CellBand}_{Command[8]}.txt</FilenameFormat>
+        <EntryFormat>{Response[*]}</EntryFormat>
+        <Parameter Prompt="Date" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+        <Parameter Prompt="Time" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+      </Command>
+      <Type>Recorder</Type>
+      <SubType>File</SubType>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like 'TDOA*'</Expression>
+          <Expression>value not like 'TDOA Command*'</Expression>
+          <Destination>
+            <Name>Command</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like '*TDOA Command*'</Expression>
+          <Destination>
+            <Name>Response</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="TDOA">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>tdoa 0 1 1250 0 1 8 308 0 0 1 0 0 0 0 0 4 0</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>10</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+  </Step>
+  <!-- TDOA Step -->
+  <Step>
+    <Actor Name ="SomeTDOATest">
+      <Command Type="Recorder">
+        <FilenameFormat>{Global.LogFileFolder}\LMU_TDOA_{0:MMddyy}_{1:hhmmss}_g_{Global.LMU1CommunityString}_{Global.CellBand}_{Command[8]}.txt</FilenameFormat>
+        <EntryFormat>{Response[*]}</EntryFormat>
+        <Parameter Prompt="Date" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+        <Parameter Prompt="Time" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+      </Command>
+      <Type>Recorder</Type>
+      <SubType>File</SubType>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like 'TDOA*'</Expression>
+          <Expression>value not like 'TDOA Command*'</Expression>
+          <Destination>
+            <Name>Command</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like '*TDOA Command*'</Expression>
+          <Destination>
+            <Name>Response</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="TDOA">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>tdoa 0 1 1250 0 1 9 309 0 0 1 0 0 0 0 0 4 0</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>10</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+  </Step>
+  <!-- TDOA Step -->
+  <Step>
+    <Actor Name ="SomeTDOATest">
+      <Command Type="Recorder">
+        <FilenameFormat>{Global.LogFileFolder}\LMU_TDOA_{0:MMddyy}_{1:hhmmss}_g_{Global.LMU1CommunityString}_{Global.CellBand}_{Command[8]}.txt</FilenameFormat>
+        <EntryFormat>{Response[*]}</EntryFormat>
+        <Parameter Prompt="Date" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+        <Parameter Prompt="Time" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+      </Command>
+      <Type>Recorder</Type>
+      <SubType>File</SubType>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like 'TDOA*'</Expression>
+          <Expression>value not like 'TDOA Command*'</Expression>
+          <Destination>
+            <Name>Command</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like '*TDOA Command*'</Expression>
+          <Destination>
+            <Name>Response</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="TDOA">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>tdoa 0 1 1250 0 1 10 310 0 0 1 0 0 0 0 0 4 0</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>10</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+  </Step>
+  <!-- TDOA Step -->
+  <Step>
+    <Actor Name ="SomeTDOATest">
+      <Command Type="Recorder">
+        <FilenameFormat>{Global.LogFileFolder}\LMU_TDOA_{0:MMddyy}_{1:hhmmss}_g_{Global.LMU1CommunityString}_{Global.CellBand}_{Command[8]}.txt</FilenameFormat>
+        <EntryFormat>{Response[*]}</EntryFormat>
+        <Parameter Prompt="Date" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+        <Parameter Prompt="Time" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+      </Command>
+      <Type>Recorder</Type>
+      <SubType>File</SubType>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like 'TDOA*'</Expression>
+          <Expression>value not like 'TDOA Command*'</Expression>
+          <Destination>
+            <Name>Command</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like '*TDOA Command*'</Expression>
+          <Destination>
+            <Name>Response</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="TDOA">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>tdoa 0 1 1250 0 1 11 311 0 0 1 0 0 0 0 0 4 0</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>10</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+  </Step>
+</Test>

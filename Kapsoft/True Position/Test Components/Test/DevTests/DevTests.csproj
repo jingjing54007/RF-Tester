@@ -1,0 +1,105 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{DDC4E4C4-6FDC-423A-9E93-2E8663E8A407}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DevTests</RootNamespace>
+    <AssemblyName>DevTests</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="qf4net, Version=1.1.17.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Output\qf4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\TruePosition.Test.Core.csproj">
+      <Project>{8D877E78-B2BB-44E5-B2BE-00D5BC1F753F}</Project>
+      <Name>TruePosition.Test.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data Layer\TruePosition.Test.DataLayer.csproj">
+      <Project>{ADE4F91F-D835-4CAA-9C7D-034892532E70}</Project>
+      <Name>TruePosition.Test.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\IO\TruePosition.Test.IO.csproj">
+      <Project>{D3BB6254-43B0-468C-87CB-5327F9C965B5}</Project>
+      <Name>TruePosition.Test.IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Process\TruePosition.Test.Process.csproj">
+      <Project>{F99FA9A9-0242-421B-B7BD-6A8A90755902}</Project>
+      <Name>TruePosition.Test.Process</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Prompt\TruePosition.Test.Prompt.csproj">
+      <Project>{3C44D61F-42D5-4F9C-BE9B-B6FC93CE4A5A}</Project>
+      <Name>TruePosition.Test.Prompt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\QF\TruePosition.Test.QF.csproj">
+      <Project>{F8973620-5C28-4F7F-8533-5A6C90934678}</Project>
+      <Name>TruePosition.Test.QF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Recorder\TruePosition.Test.Recorder.csproj">
+      <Project>{D61107FB-B4F1-48AB-A89A-6CDF925FB3DF}</Project>
+      <Name>TruePosition.Test.Recorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UI\TruePosition.Test.UI.csproj">
+      <Project>{2879427E-90A5-41C3-9B74-345E8CC0D06D}</Project>
+      <Name>TruePosition.Test.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\XML\TruePosition.Test.XML.csproj">
+      <Project>{321AC89D-CBEA-412B-A89A-5934AC197F23}</Project>
+      <Name>TruePosition.Test.XML</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

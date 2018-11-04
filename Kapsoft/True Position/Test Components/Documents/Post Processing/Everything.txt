@@ -1,0 +1,4435 @@
+-Get -c=64.2.1.37 192.168.173.173 1.3.6.1.4.1.12060.1.2.5.1.2.1
+SNMP Error during Transmit: Exception of type 'Lextm.SharpSnmpLib.Messaging.TimeoutException' was thrown. 
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>
+tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0
+TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16
+ADG cdd9f938, TS ce634d78
+Send RF Tuning to Utility Services task
+Send RF coll data to UCC task, dsp 0
+StoreTransId
+StoreTransId: i = 0, trans_id = 711
+Go to task delay
+Format and send collect data to dsp 0
+Format and send tdoa data request to dsp 0
+TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|
+LMU>
+TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|
+LMU>
+TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &'KT.!B/]' 8I?2T&,?$9]|
+LMU>
+TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&H$&,QJD!9,:O04N&L %$AK#!28P"!|
+LMU>
+TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|
+LMU>
+TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6<%K.6&!D?EE@:AY:(&S.6I!NSE>.|
+LMU>
+TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&*X+PAB8"\48E O/&(X@6Z|
+LMU>
+TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|
+LMU>
+TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|
+LMU>
+TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|
+LMU>
+TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&A$'_AHG!ZX:. =K&E,'!AIM.L&P\#|
+LMU>
+TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!<N3. ,CDR=""  8Y,G6SD=""LMU="">
+LMU>
+TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|
+LMU>
+G 40.064618 -75.460373 0 53
+CP RAM Memory Test has not been run
+Booted From: Flash Area(2)
+BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+BuildTag: LMUBOOT-R10.1BL001
+Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+BuildTag: LMUFLASH-R10.1BL036
+FPGA version is: LMULFPGA-R10.0BL125
+GPS SW version is TPGPSFLASH-R10.1BL002
+GPS FPGA version is TPGPSFPGA-R10.0BL019
+GPS ENGINE version is GPS Engine 0.4850266.0.5
+GPS Software Checksum is 9e05
+GPS FPGA Checksum is 7437
+GBE Not Configured
+LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+?G
+lat 40.064621 long -75.460373 antenna delay 0 altitude 56
+LMU>
+?CO XXX
+ESN:
+GBE_CTLR:     NOT INSTALLED           
+GBE_LNA:      NOT INSTALLED           
+GBE:          NOT INSTALLED           
+GBE CUST ESN: NOT INSTALLED           
+LMU:          06162200D010082006501DA6
+GPS RCVR:     06162200D010082006501DA6
+RECEIVER:     06163900B0100820070403C2
+BDC:          06164000C11008200704063B
+PSUPPLY:      06163400G0100820064300C1
+CP/DSP:       06164100B1100820064700C2
+DCARD:        06160301B010082006440005
+EBOARD:       NOT INSTALLED           
+CUSTESN:      TRULMU5207872AE         
+TPESN:        06630000D010082007050130
+LMU>
+SetNetwork 0
+Warning: All DS0 Bits have been disabled
+NetworkType: T1
+LMU>
+Set56KMode 0
+56KMode: 64 kbps
+LMU>
+SetNetwork VarDCard
+Warning: All DS0 Bits have been disabled
+NetworkType: E1
+LMU>
+ClrDS0Bits
+All DS0s disabled...
+LMU>
+EnableDS0Bit 1
+DS0Bit1 enabled
+LMU>
+SetFramingMode 0
+FramingMode: NOMFNOCRC
+LMU>
+SetLineMode 0
+LineMode: HDB3
+LMU>
+tshell
+->
+buildInfo
+value = 21 = 0x15
+->
+selftest_debug_flag=2
+selftest_debug_flag = 0x40ab98: value = 2 = 0x2
+->
+selftest_debug_flag=0
+TD Timer L U-6600 O-6600  OKTMV 0
+DTR ON. Dog reset
+selftest_debug_flag = 0x40ab98: value = 0 = 0x0
+->
+dshell
+value = 0 = 0x0
+-> CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ LMU>
+reset
+Rebooting...
+€
+Adding 2982 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+lmu_root: Creating tasks
+lmu_root: suspending myself
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Booted From: BootRom
+ LMUBOOT>
+pro
+Attached TCP/IP interface to motfec unit 0
+Attaching network interface lo0... done.
+NFS client support not included.
+Adding 9414 symbols for standalone.
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)
+ ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]
+ ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]
+ ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]
+ ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]
+ ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]
+ ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]
+ ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]
+ ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2
+ ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5
+ ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999
+                               CPU: TruePosition MPC855T.  Processor #0.
+                              Memory Size: 0x1fff000.  BSP version 1.2/8.
+->
+lmu_root: Creating queues
+GPS TIME VALID msg wait time:30
+GPS TIME VALID msg wait time:30
+SUCCESS - Completed XSVF execution.
+lmu_root: Creating tasks
+lmu_print_connect unable to bind stdio_input_socket
+Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0
+E1 Init 2
+Dsp Task has started!
+fpga version is 125
+T1 Receive Socket 8
+The dsp code is 429996 bytes
+Load dsp 1
+Load dsp 2
+Load dsp 3
+Load dsp 4
+BDC ESN: 06164000C11008200704063B
+The type of receiver in this unit is 14
+We are now in European mode
+ADMIN STATE: 3
+In selftest, 144 is beacon threshold
+The type of bdc in this unit is 16
+Root task is being exited
+Done Open 9
+Enhanced CPDSP board
+RESET REASON: Reset Commanded RSR: 0
+TP ESN: 06630000D010082007050130
+WHOLE LMU ESN: TRULMU5207872AE
+COLD START TRAP RECEIVER: FFFFFFFF, ffffffff
+TP EQ ID 30 30 20 20 20 20 20 20
+CP/DSP ESN: 06164100B1100820064700C2
+0x0:  immr->i2c_i2cer = 0x10
+POWER SUPPLY ESN: 06163400G0100820064300C1
+DAUGHTER CARD ESN: 06160301B010082006440005
+It is a TPOS receiver
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+GPS HAPPY:  wonderful state in getver 255!!
+Proceeding GPS
+Got GPS version, moving on
+DSP 1 is now online.
+DSP 2 is now online.
+DSP 3 is now online.
+DSP 4 is now online.
+0x1e6e0a:  Changing to 250kHz
+RECEIVER ESN: 06163900B0100820070403C2
+Enter GPS message processing loop
+GPS TIME NOW VALID
+GPS eng sw  is 0.4850266.0.5
+This LMU is NOT AGPS capable
+STRLEN tpsw is 6 (10.1.2)
+In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6
+pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+LMUDSP-R10.1BL011,  31 Jul 2007
+Receiver SPI EEPROM revision:  0x2
+GPS ESN: 06162200D010082006501DA6
+GPS ESN: 06162200D010082006501DA6
+The random start time will be in 70 secs
+CP RAM Memory Test has not been run
+GPS TIME VALID found
+CP RAM Memory Test has not been run
+ Booted From: Flash Area(2)
+ BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Wed May  2 14:34:44 EDT 2007
+ BuildTag: LMUBOOT-R10.1BL001
+ Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...
+ Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007
+ BuildTag: LMUFLASH-R10.1BL036
+ FPGA version is: LMULFPGA-R10.0BL125
+ GPS SW version is TPGPSFLASH-R10.1BL002
+ GPS FPGA version is TPGPSFPGA-R10.0BL019
+ GPS ENGINE version is GPS Engine 0.4850266.0.5
+ GPS Software Checksum is 9e05
+ GPS FPGA Checksum is 7437
+ GBE Not Configured
+LMU>
+etest 13
+ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+etest 15 3
+ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+LMU>
+SEARCHBCN NONE
+Clearing DBL
+LMU>
+?T
+TEMPERATURES: recvr 31 bdc 28 power supply 35
+#GBE:          Controller 255 LNA 255
+LMU>

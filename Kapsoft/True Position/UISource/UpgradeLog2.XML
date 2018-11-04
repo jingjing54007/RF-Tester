@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="HITUI">
+</Property><Property Name="Solution File" Value="C:\Monty HIT Work\Src\HITUI.sln">
+</Property><Property Name="Date" Value="Tuesday, May 11, 2010">
+</Property><Property Name="Time" Value="8:24:26 AM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\FileBrowser.csproj" Description="Project file successfully backed up as C:\Monty HIT Work\Src\Backup1\FileBrowser.csproj">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\BrowserWrappers\BrowserContextMenuWrappers.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\BrowserWrappers\BrowserContextMenuWrappers.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\BrowserControls.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\BrowserControls.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Browser.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Browser.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Browser.Designer.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Browser.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\BrowserWrappers\BrowserDropWrappers.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\BrowserWrappers\BrowserDropWrappers.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\BrowserWrappers\BrowserDragWrappers.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\BrowserWrappers\BrowserDragWrappers.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\BrowserWrappers\BrowserPluginWrapper.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\BrowserWrappers\BrowserPluginWrapper.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IQueryInfo.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IQueryInfo.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IShellExtInit.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IShellExtInit.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IEnumSTATSTG.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IEnumSTATSTG.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IStorage.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IStorage.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IStream.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IStream.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\ShellBrowserUpdater.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\ShellBrowserUpdater.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Properties\AssemblyInfo.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Properties\Resources.Designer.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IContextMenu.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IContextMenu.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IDropSource.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IDropSource.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IDragSourceHelper.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IDragSourceHelper.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IDropTarget.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IDropTarget.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IDropTargetHelper.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IDropTargetHelper.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IEnumIDList.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IEnumIDList.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\Interfaces\IShellFolder.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\Interfaces\IShellFolder.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\PIDL.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\PIDL.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\ShellAPI.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\ShellAPI.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\ShellBrowser.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\ShellBrowser.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\ShellHelper.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\ShellHelper.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\ShellImageList.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\ShellImageList.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\ShellItem.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\ShellItem.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Shell\StreamStorage.cs" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Shell\StreamStorage.cs">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Images\BrowseFolders.png" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Images\BrowseFolders.png">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Images\BrowserUp.png" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Images\BrowserUp.png">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Images\BrowserForward.png" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Images\BrowserForward.png">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Images\BrowserBack.png" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Images\BrowserBack.png">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Browser.resx" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Browser.resx">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\Properties\Resources.resx" Description="File successfully backed up as C:\Monty HIT Work\Src\Backup1\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\FileBrowser.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="FileBrowser" Source="FileBrowser\FileBrowser.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="FileBrowser" Source="FileBrowser\FileBrowser.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,14 @@
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\bin\Debug\HITExplorer.dll
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\bin\Debug\HITExplorer.pdb
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\ResolveAssemblyReference.cache
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\HITExplorer.csproj.GenerateResource.Cache
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\HITExplorer.dll
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\HITExplorer.pdb
+C:\Explorer TreeView\ExplorerTreeView_demo\WilsonProgramming\obj\Debug\HITExplorer.ExplorerTreeView.resources
+C:\Monty HIT Work\Src\HITExplorer\bin\Debug\HITExplorer.dll
+C:\Monty HIT Work\Src\HITExplorer\bin\Debug\HITExplorer.pdb
+C:\Monty HIT Work\Src\HITExplorer\obj\Debug\ResolveAssemblyReference.cache
+C:\Monty HIT Work\Src\HITExplorer\obj\Debug\HITExplorer.ExplorerTreeView.resources
+C:\Monty HIT Work\Src\HITExplorer\obj\Debug\HITExplorer.csproj.GenerateResource.Cache
+C:\Monty HIT Work\Src\HITExplorer\obj\Debug\HITExplorer.dll
+C:\Monty HIT Work\Src\HITExplorer\obj\Debug\HITExplorer.pdb

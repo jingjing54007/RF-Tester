@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="Map">
+  <Step>
+    <Actor Name ="Map">
+      <Command Type="MAP">
+        <Format>{Global.MapExePathName} /S {Global.MapConfigName} /P "{Global.MapFolderPath}" /A /N 50000 /D /C</Format>
+      </Command>
+      <Type>Process</Type>
+      <SubType></SubType>
+    </Actor>
+    <Timeout>30</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>Map Process</Description>
+  </Step>
+</Test>

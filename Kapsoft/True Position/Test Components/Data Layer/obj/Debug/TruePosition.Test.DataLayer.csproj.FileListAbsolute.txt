@@ -1,0 +1,5 @@
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.DataLayer.dll
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.DataLayer.pdb
+C:\Development\Kapsoft\True Position\Test Components\Data Layer\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Data Layer\obj\Debug\TruePosition.Test.DataLayer.dll
+C:\Development\Kapsoft\True Position\Test Components\Data Layer\obj\Debug\TruePosition.Test.DataLayer.pdb

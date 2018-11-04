@@ -1,0 +1,9 @@
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.VBHelpers.dll
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.VBHelpers.pdb
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.VBHelpers.xml
+C:\Development\Kapsoft\True Position\Test Components\Data Layer\VBHelpers\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Data Layer\VBHelpers\obj\Debug\Resources.resources
+C:\Development\Kapsoft\True Position\Test Components\Data Layer\VBHelpers\obj\Debug\TruePosition.Test.VBHelpers.vbproj.GenerateResource.Cache
+C:\Development\Kapsoft\True Position\Test Components\Data Layer\VBHelpers\obj\Debug\TruePosition.Test.VBHelpers.dll
+C:\Development\Kapsoft\True Position\Test Components\Data Layer\VBHelpers\obj\Debug\TruePosition.Test.VBHelpers.xml
+C:\Development\Kapsoft\True Position\Test Components\Data Layer\VBHelpers\obj\Debug\TruePosition.Test.VBHelpers.pdb

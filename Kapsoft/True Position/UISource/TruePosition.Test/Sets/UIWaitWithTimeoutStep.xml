@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="UITimeoutDialog">
+  <Step>
+    <Actor Name="WaitingWithTimeout">
+      <Type>Prompt</Type>
+      <SubType></SubType>
+      <Command Type="Prompt">
+        <Format>{0}</Format>
+        <Parameter Prompt="Message" Access="Show">
+          <Value>Shall we continue?</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>60</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>false</CompleteOnTimeout>
+    <Description>Operator Wait Dialogbox with Timeout</Description>
+  </Step>
+</Test>
+

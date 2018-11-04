@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="TelnetSMLC">
+  <Step>
+    <Actor Name ="SMLC1">
+      <Command Type="SMLC">
+        <Format>vccollectdata {0} {Global.LMU1_ID} {1} {2} {3} {4} {5} {6} {7}</Format>
+        <Parameter Prompt="locationType" Access="Show">
+          <Value>gsm</Value>
+        </Parameter>
+        <Parameter Prompt="primSectorId" Access="Show">
+          <Value>1</Value>
+        </Parameter>
+        <Parameter Prompt="channelNumber" Access="Show">
+          <Value>955</Value>
+        </Parameter>
+        <Parameter Prompt="colorCode" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="priority" Access="Show">
+          <Value>3</Value>
+        </Parameter>
+        <Parameter Prompt="band" Access="Show">
+          <Value>3</Value>
+        </Parameter>
+        <Parameter Prompt="powerLevel" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="locFlag" Access="Show">
+          <Value>2</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Telnet</SubType>
+    </Actor>
+    <Timeout>10</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Description>Location Request Telnet Command</Description>
+  </Step>
+</Test>

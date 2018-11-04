@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="SigPowerOn">
+  <Step>
+    <Actor Name ="PowerSupplyOn">
+      <Command Type="GPIB">
+        <Format>SOURCE:VOLT {0};OUTP:STAT ON</Format>
+        <Parameter Prompt="Voltage Max" Access="Show">
+          <Value>28.0</Value>
+        </Parameter>
+       </Command>
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+    </Actor>
+    <Timeout>0</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Description>Power Supply On</Description>
+  </Step>
+</Test>

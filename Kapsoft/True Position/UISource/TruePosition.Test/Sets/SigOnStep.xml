@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="SigGenOn">
+  <Step>
+    <Actor Name ="SigGen">
+      <Command Type="GPIB">
+        <Format>OUTP:STAT ON</Format>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+    </Actor>
+    <Timeout>2</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>true</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>SigGen On</Description>
+  </Step>
+</Test>

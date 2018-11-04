@@ -1,0 +1,5 @@
+C:\Development\Kapsoft\True Position\Test Components\Process\bin\Debug\TruePosition.Test.Process.dll
+C:\Development\Kapsoft\True Position\Test Components\Process\bin\Debug\TruePosition.Test.Process.pdb
+C:\Development\Kapsoft\True Position\Test Components\Process\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Process\obj\Debug\TruePosition.Test.Process.dll
+C:\Development\Kapsoft\True Position\Test Components\Process\obj\Debug\TruePosition.Test.Process.pdb

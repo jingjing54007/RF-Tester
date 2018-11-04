@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="1A">
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>?CO</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <Element>
+        <KeyExpression>value like 'LMU:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 15</Expression>
+          <Expression>value validesn</Expression>
+          <Expression>value not same</Expression>
+          <Expression>value not like '*TRULMU*'</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid Chassis ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'CUSTESN:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 15</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid Customer Chassis ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'GPS RCVR:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Expression>value validesn</Expression>
+          <Expression>value not same</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid GPS Receiver ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'RECEIVER:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value len 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid Receiver ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'BDC:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid BDC ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'PSUPPLY:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid Power Supply ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'CP/DSP:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value len 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>CP/DSP not found</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'DCARD:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Expression>value validesn</Expression>
+          <Expression>value not same</Expression>
+          <Expression>value not like 'DEBUG'</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid DCARD ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'EBOARD:*'</KeyExpression>
+        <Expected Trim="false">
+          <Expression>value lenge 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid EBOARD ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'TPESN:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid TP ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'TEMPERATURES:*'</KeyExpression>
+        <Expected Trim="true">
+          <KeyExpression>value like '*recvr*'</KeyExpression>
+          <Expression>value &gt;= -10</Expression>
+          <Expression>value &lt;= 70</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Receiver Temperature outside limits</FailureMessage>
+        </Expected>
+        <Expected Trim="true">
+          <KeyExpression>value like '*bdc*'</KeyExpression>
+          <Expression>value &gt;= -10</Expression>
+          <Expression>value &lt;= 28</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Receiver Temperature outside limits</FailureMessage>
+        </Expected>
+        <Expected Trim="true">
+          <KeyExpression>value like '*power supply*'</KeyExpression>
+          <Expression>value &gt;= -10</Expression>
+          <Expression>value &lt;= 35</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Receiver Temperature outside limits</FailureMessage>
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <BeginState>BOOT</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+</Test>

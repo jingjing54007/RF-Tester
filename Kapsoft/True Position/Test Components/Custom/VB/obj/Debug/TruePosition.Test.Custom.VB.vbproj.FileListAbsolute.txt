@@ -1,0 +1,9 @@
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.Custom.VB.dll
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.Custom.VB.pdb
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.Custom.VB.xml
+C:\Development\Kapsoft\True Position\Test Components\Custom\VB\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Custom\VB\obj\Debug\Resources.resources
+C:\Development\Kapsoft\True Position\Test Components\Custom\VB\obj\Debug\TruePosition.Test.Custom.VB.vbproj.GenerateResource.Cache
+C:\Development\Kapsoft\True Position\Test Components\Custom\VB\obj\Debug\TruePosition.Test.Custom.VB.dll
+C:\Development\Kapsoft\True Position\Test Components\Custom\VB\obj\Debug\TruePosition.Test.Custom.VB.xml
+C:\Development\Kapsoft\True Position\Test Components\Custom\VB\obj\Debug\TruePosition.Test.Custom.VB.pdb

@@ -1,0 +1,63 @@
+C:\Doc Panel Suite\Src\WinFormsUI\bin\Debug\license.txt
+C:\Doc Panel Suite\Src\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Doc Panel Suite\Src\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Doc Panel Suite\Src\WinFormsUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Resources.resources
+C:\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Strings.resources
+C:\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WinFormsUI.csproj.GenerateResource.Cache
+C:\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\WinFormsUI\bin\Debug\license.txt
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\WinFormsUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Resources.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Strings.resources
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WinFormsUI.csproj.GenerateResource.Cache
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Development\Kapsoft\True Position\HIT\UI\Doc Panel Suite\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Monty HIT Work\Src\WinFormsUI\bin\Debug\license.txt
+C:\Monty HIT Work\Src\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Monty HIT Work\Src\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Monty HIT Work\Src\WinFormsUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Monty HIT Work\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Resources.resources
+C:\Monty HIT Work\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Strings.resources
+C:\Monty HIT Work\Src\WinFormsUI\obj\Debug\WinFormsUI.csproj.GenerateResource.Cache
+C:\Monty HIT Work\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Monty HIT Work\Src\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Development\Kapsoft\UISrc5-28\WinFormsUI\bin\Debug\license.txt
+C:\Development\Kapsoft\UISrc5-28\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Development\Kapsoft\UISrc5-28\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Development\Kapsoft\UISrc5-28\WinFormsUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\UISrc5-28\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Resources.resources
+C:\Development\Kapsoft\UISrc5-28\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Strings.resources
+C:\Development\Kapsoft\UISrc5-28\WinFormsUI\obj\Debug\WinFormsUI.csproj.GenerateResource.Cache
+C:\Development\Kapsoft\UISrc5-28\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Development\Kapsoft\UISrc5-28\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Monty HIT Work\UISrc5-28\WinFormsUI\bin\Debug\license.txt
+C:\Monty HIT Work\UISrc5-28\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Monty HIT Work\UISrc5-28\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Monty HIT Work\UISrc5-28\WinFormsUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Monty HIT Work\UISrc5-28\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Resources.resources
+C:\Monty HIT Work\UISrc5-28\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Strings.resources
+C:\Monty HIT Work\UISrc5-28\WinFormsUI\obj\Debug\WinFormsUI.csproj.GenerateResource.Cache
+C:\Monty HIT Work\UISrc5-28\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Monty HIT Work\UISrc5-28\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Devel\UISource\WinFormsUI\bin\Debug\license.txt
+C:\Devel\UISource\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Devel\UISource\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Devel\UISource\WinFormsUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Devel\UISource\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Resources.resources
+C:\Devel\UISource\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Strings.resources
+C:\Devel\UISource\WinFormsUI\obj\Debug\WinFormsUI.csproj.GenerateResource.Cache
+C:\Devel\UISource\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Devel\UISource\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Development\Kapsoft\True Position\UISource\WinFormsUI\bin\Debug\license.txt
+C:\Development\Kapsoft\True Position\UISource\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Development\Kapsoft\True Position\UISource\WinFormsUI\bin\Debug\WeifenLuo.WinFormsUI.Docking.pdb
+C:\Development\Kapsoft\True Position\UISource\WinFormsUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\UISource\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Resources.resources
+C:\Development\Kapsoft\True Position\UISource\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.Strings.resources
+C:\Development\Kapsoft\True Position\UISource\WinFormsUI\obj\Debug\WinFormsUI.csproj.GenerateResource.Cache
+C:\Development\Kapsoft\True Position\UISource\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.dll
+C:\Development\Kapsoft\True Position\UISource\WinFormsUI\obj\Debug\WeifenLuo.WinFormsUI.Docking.pdb

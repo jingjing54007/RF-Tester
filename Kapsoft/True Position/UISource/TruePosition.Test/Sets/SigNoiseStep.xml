@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="SigGenNoise">
+  <Step>
+    <Actor Name ="SigGen">
+      <Command Type="GPIB">
+        <Format>SOUR:RAD:AWGN:ARB:BWID {0} MHz</Format>
+        <Parameter Prompt="Freq (MHz)" Access="Show">
+          <Value>0.0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+    </Actor>
+    <Timeout>2</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>true</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>SigGen Noise</Description>
+  </Step>
+</Test>

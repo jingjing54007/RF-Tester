@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestSets>
+  <TestSet Name="Bootup">
+    <Test Type="Bootup" Name="1A">
+      <Step Type="Bootup">
+        <Command>?CO</Command>
+        <Response Header="" Trailer="LMU&gt;" Delimiter="&#xD;&#xA;" Delay="2">
+          <Element>ESN:</Element>
+          <Element>GBE_CTLR:     NOT INSTALLED           </Element>
+          <Element>GBE_LNA:      NOT INSTALLED           </Element>
+          <Element>GBE:          NOT INSTALLED           </Element>
+          <Element>GBE CUST ESN: NOT INSTALLED           </Element>
+          <Element>LMU:          06162200D010082006501DA6</Element>
+          <Element>GPS RCVR:     06162200D010082006501DA6</Element>
+          <Element>RECEIVER:     06163900B0100820070403C2</Element>
+          <Element>BDC:          06164000C11008200704063B</Element>
+          <Element>PSUPPLY:      06163400G0100820064300C1</Element>
+          <Element>CP/DSP:       06164100B1100820064700C2</Element>
+          <Element>DCARD:        06160301B010082006440005</Element>
+          <Element>EBOARD:       NOT INSTALLED           </Element>
+          <Element>CUSTESN:      TRULMU5207872AE         </Element>
+          <Element>TEMPERATURES: recvr 31 bdc 28 power supply 35</Element>
+          <Element>TPESN:        06630000D010082007050130</Element>
+        </Response>
+      </Step>
+    </Test>
+  </TestSet>
+</TestSets>
+          

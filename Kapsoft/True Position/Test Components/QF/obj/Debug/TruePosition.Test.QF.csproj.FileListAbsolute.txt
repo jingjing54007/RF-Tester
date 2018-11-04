@@ -1,0 +1,5 @@
+C:\Development\Kapsoft\True Position\Test Components\QF\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.QF.dll
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.QF.pdb
+C:\Development\Kapsoft\True Position\Test Components\QF\obj\Debug\TruePosition.Test.QF.dll
+C:\Development\Kapsoft\True Position\Test Components\QF\obj\Debug\TruePosition.Test.QF.pdb

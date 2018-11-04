@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="Console">
+  <Step>
+    <Actor Name="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="LMU">
+        <Format>TDOA {0} {1} {2} {3} {4} {5} {6} {7} {8} {9} {10} {11} {12} {13} {14} {15} {16}</Format>
+        <Parameter Prompt="tr" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="TS" Access="Show">
+          <Value>1</Value>
+        </Parameter>
+        <Parameter Prompt="#smpls" Access="Show">
+          <Value>1250</Value>
+        </Parameter>
+        <Parameter Prompt="BW" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="port#" Access="Show">
+          <Value>1</Value>
+        </Parameter>
+        <Parameter Prompt="#bits" Access="Show">
+          <Value>16</Value>
+        </Parameter>
+        <Parameter Prompt="chan/frequency" Access="Show">
+          <Value>300</Value>
+        </Parameter>
+        <Parameter Prompt="sig" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="frq-ofst" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="priority" Access="Show">
+          <Value>1</Value>
+        </Parameter>
+        <Parameter Prompt="bc" Access="Show">
+          <Value>4</Value>
+        </Parameter>
+        <Parameter Prompt="bark" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="rt" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="ddc" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="iftp" Access="Show">
+          <Value>6</Value>
+        </Parameter>
+        <Parameter Prompt="blk-cnt" Access="Show">
+          <Value>4</Value>
+        </Parameter>
+        <Parameter Prompt="pad" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>30</Timeout>
+    <Retries>3</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Description>TDOA Console Command</Description>
+    <Response Delimiter="&#xD;&#xA;" Header="" Trailer="&gt;">
+      <Element>
+        <KeyExpression>value like '*'</KeyExpression>
+        <Expected Trim="true">
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage></FailureMessage>
+        </Expected>
+      </Element>
+    </Response>
+  </Step>  
+</Test>

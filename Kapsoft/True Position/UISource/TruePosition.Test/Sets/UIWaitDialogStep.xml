@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="UIWaitDialog">
+  <Step>
+    <Actor Name ="WaitingforYou">
+      <Command Type="Prompt">
+        <Format>{0}</Format>
+        <Parameter Prompt="Message" Access="Show">
+          <Value>Shall we do another SNMP Set?</Value>
+        </Parameter>
+      </Command>
+      <Type>Prompt</Type>
+      <SubType></SubType>
+    </Actor>
+    <Timeout>0</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Description>User Interface Dialogbox Wait for Operator Input</Description>
+  </Step>
+</Test>

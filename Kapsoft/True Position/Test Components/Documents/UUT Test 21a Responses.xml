@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestSets>
+  <TestSet Name="Bootup">
+    <Test Type="Bootup" Name="Test 21a">
+      <Step Type="Bootup">
+        <Command>BIT 6 4 2 876 1 3 0 2</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>BIT 6</Element>
+          <Element></Element>
+          <Element>Noise Level: Channel   28 -   43: -84 -84 -83 -83 -83 -84 -83 -83 -83 -84 -83 -83 -84 -83 -84 -84</Element>
+          <Element></Element>
+          <Element>Noise Floor: Channel   28 -   43: -83 -84 -84 -84 -84 -84 -84 -84 -83 -83 -83 -84 -83 -84 -84 -84</Element>
+          <Element></Element>
+          <Element>Result: Failed</Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>BIT 6 4 2 907.8 2 3 0 2</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>BIT 6</Element>
+          <Element></Element>
+          <Element>Noise Level: Channel   28 -   43: -84 -84 -83 -83 -83 -84 -83 -83 -83 -84 -83 -83 -84 -83 -84 -84</Element>
+          <Element></Element>
+          <Element>Noise Floor: Channel   28 -   43: -83 -84 -84 -84 -84 -84 -84 -84 -83 -83 -83 -84 -83 -84 -84 -84</Element>
+          <Element></Element>
+          <Element>Result: Failed</Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>BIT 6 4 2 876 3 3 0 2</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>BIT 6</Element>
+          <Element></Element>
+          <Element>Noise Level: Channel   28 -   43: -84 -84 -83 -83 -83 -84 -83 -83 -83 -84 -83 -83 -84 -83 -84 -84</Element>
+          <Element></Element>
+          <Element>Noise Floor: Channel   28 -   43: -83 -84 -84 -84 -84 -84 -84 -84 -83 -83 -83 -84 -83 -84 -84 -84</Element>
+          <Element></Element>
+          <Element>Result: Failed</Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>BIT 6 4 2 876 4 3 0 2</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>BIT 6</Element>
+          <Element></Element>
+          <Element>Noise Level: Channel   28 -   43: -84 -84 -83 -83 -83 -84 -83 -83 -83 -84 -83 -83 -84 -83 -84 -84</Element>
+          <Element></Element>
+          <Element>Noise Floor: Channel   28 -   43: -83 -84 -84 -84 -84 -84 -84 -84 -83 -83 -83 -84 -83 -84 -84 -84</Element>
+          <Element></Element>
+          <Element>Result: Failed</Element>
+        </Response>
+      </Step>
+    </Test>
+  </TestSet>
+</TestSets>
+          

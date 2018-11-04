@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestSets>
+  <TestSet Name="Bootup">
+    <Test Type="Bootup" Name="1E">
+      <Step Type="Bootup">
+        <Command>tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>TDOA command: channel = 187, ifType= 1, numberSample = 512, blockCount = 16</Element>
+          <Element>ADG cdd9f938, TS ce634d78</Element>
+          <Element>Send RF Tuning to Utility Services task</Element>
+          <Element>Send RF coll data to UCC task, dsp 0</Element>
+          <Element>StoreTransId</Element>
+          <Element>StoreTransId: i = 0, trans_id = 711</Element>
+          <Element>Go to task delay</Element>
+          <Element>Format and send collect data to dsp 0</Element>
+          <Element>Format and send tdoa data request to dsp 0</Element>
+          <Element></Element>
+          <Element>TDOA 0 P 0 B 1 C 0 G -32768,0 V 16 W 512 |%6A\B5\;#HTO%9Z0CP].E=\?'>]>ZF|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 1 C 1 G -32768,0 V 16 W 512 |ZR3N?.K9[MCJF.\FZD_O@.GW\ OGV_|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 2 C 0 G -32768,0 V 16 W 512 |\YX81_0 &#x26;'KT.!B/]' 8I?2T&#x26;,?$9]|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 2 C 1 G -32768,0 V 16 W 512 |&#x26;H$&#x26;,QJD!9,:O04N&#x26;L %$AK#!28P"!|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 3 C 0 G -32768,0 V 16 W 512 | 7CDR@$8Y,4 L^3* "SDQO^AY,_GE$|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 3 C 1 G -32768,0 V 16 W 512 |Y6&lt;%K.6&#x26;!D?EE@:AY:(&#x26;S.6I!NSE>.|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 4 C 0 G -32768,0 V 16 W 512 |"S$8V N6&#x26;*X+PAB8"\48E O/&#x26;(X@6Z|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 4 C 1 G -32768,0 V 16 W 512 |%A;P!Q7C[[\5RN^>%:OO?A5U[S,5_L|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 5 C 0 G -32768,0 V 16 W 512 |Z]3MM>M][@SK2NY+ZPONI^JJ[QKJ;P|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 5 C 1 G -32768,0 V 16 W 512 |\HT7L_+F%^7S2Q@?\[08[V7!EU]J@9|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 6 C 0 G -32768,0 V 16 W 512 |&#x26;A$'_AHG!ZX:. =K&#x26;E,'!AIM.L&#x26;P\#|</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 6 C 1 G -32768,0 V 16 W 512 | D'DV@'MY-H!&lt;N3. ,CDR=""  8Y,G6SD=""LMU=""&gt;</Element>
+          <Element>LMU></Element>
+          <Element>TDOA 0 P 0 B 7 C 0 G -32768,0 V 16 W 512 |Y1@$.^4X!.3E2 5-Y6 %L^ 0@*YA (|</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>G</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>CP RAM Memory Test has not been run</Element>
+          <Element>Booted From: Flash Area(2)</Element>
+          <Element>BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...</Element>
+          <Element>Built By: jhendel On: Wed May  2 14:34:44 EDT 2007</Element>
+          <Element>BuildTag: LMUBOOT-R10.1BL001</Element>
+          <Element>Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...</Element>
+          <Element>Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007</Element>
+          <Element>BuildTag: LMUFLASH-R10.1BL036</Element>
+          <Element>FPGA version is: LMULFPGA-R10.0BL125</Element>
+          <Element>GPS SW version is TPGPSFLASH-R10.1BL002</Element>
+          <Element>GPS FPGA version is TPGPSFPGA-R10.0BL019</Element>
+          <Element>GPS ENGINE version is GPS Engine 0.4850266.0.5</Element>
+          <Element>GPS Software Checksum is 9e05</Element>
+          <Element>GPS FPGA Checksum is 7437</Element>
+          <Element>GBE Not Configured</Element>
+          <Element>LMU></Element>
+          <Element>lat 40.064618 long -75.460373 antenna delay 0 altitude 53</Element>
+          <Element>LMU>LAT(40064618 40064621), LON(-75460373,-75460373), ALT(53,56) GEO -34</Element>
+          <Element>NOT setting GPS position...</Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>reset</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>Rebooting...</Element>
+          <Element>€</Element>
+          <Element>Adding 2982 symbols for standalone.</Element>
+          <Element>            </Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element>      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)</Element>
+          <Element> ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]</Element>
+          <Element> ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]</Element>
+          <Element> ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]</Element>
+          <Element> ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]</Element>
+          <Element> ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]</Element>
+          <Element> ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]</Element>
+          <Element> ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]</Element>
+          <Element> ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999</Element>
+          <Element>                               CPU: TruePosition MPC855T.  Processor #0.</Element>
+          <Element>                              Memory Size: 0x1fff000.  BSP version 1.2/8.</Element>
+          <Element>-></Element>
+          <Element>lmu_root: Creating queues</Element>
+          <Element>lmu_root: Creating tasks</Element>
+          <Element>lmu_root: suspending myself</Element>
+          <Element>Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0</Element>
+          <Element>E1 Init 2</Element>
+          <Element>Booted From: BootRom</Element>
+          <Element> LMUBOOT></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>pro</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>Attached TCP/IP interface to motfec unit 0</Element>
+          <Element>Attaching network interface lo0... done.</Element>
+          <Element>NFS client support not included.</Element>
+          <Element>Adding 9414 symbols for standalone.</Element>
+          <Element>            </Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element>      ]]]]]]]]]]]  ]]]]     ]]]]]]]]]]       ]]              ]]]]         (R)</Element>
+          <Element> ]     ]]]]]]]]]  ]]]]]]     ]]]]]]]]       ]]               ]]]]</Element>
+          <Element> ]]     ]]]]]]]  ]]]]]]]]     ]]]]]] ]     ]]                ]]]]</Element>
+          <Element> ]]]     ]]]]] ]    ]]]  ]     ]]]] ]]]   ]]]]]]]]]  ]]]] ]] ]]]]  ]]   ]]]]]</Element>
+          <Element> ]]]]     ]]]  ]]    ]  ]]]     ]] ]]]]] ]]]]]]   ]] ]]]]]]] ]]]] ]]   ]]]]</Element>
+          <Element> ]]]]]     ]  ]]]]     ]]]]]      ]]]]]]]] ]]]]   ]] ]]]]    ]]]]]]]    ]]]]</Element>
+          <Element> ]]]]]]      ]]]]]     ]]]]]]    ]  ]]]]]  ]]]]   ]] ]]]]    ]]]]]]]]    ]]]]</Element>
+          <Element> ]]]]]]]    ]]]]]  ]    ]]]]]]  ]    ]]]   ]]]]   ]] ]]]]    ]]]] ]]]]    ]]]]</Element>
+          <Element> ]]]]]]]]  ]]]]]  ]]]    ]]]]]]]      ]     ]]]]]]]  ]]]]    ]]]]  ]]]] ]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]       Development System</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]]</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]]       VxWorks version 5.4.2</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]]       KERNEL: WIND version 2.5</Element>
+          <Element> ]]]]]]]]]]]]]]]]]]]]]]]]]       Copyright Wind River Systems, Inc., 1984-1999</Element>
+          <Element>                               CPU: TruePosition MPC855T.  Processor #0.</Element>
+          <Element>                              Memory Size: 0x1fff000.  BSP version 1.2/8.</Element>
+          <Element>-></Element>
+          <Element>lmu_root: Creating queues</Element>
+          <Element>GPS TIME VALID msg wait time:30</Element>
+          <Element>GPS TIME VALID msg wait time:30</Element>
+          <Element>SUCCESS - Completed XSVF execution.</Element>
+          <Element>lmu_root: Creating tasks</Element>
+          <Element>lmu_print_connect unable to bind stdio_input_socket</Element>
+          <Element>Enable E1, map = 2, HDB3 = 1, MF = 0, CRC = 0</Element>
+          <Element>E1 Init 2</Element>
+          <Element>Dsp Task has started!</Element>
+          <Element>fpga version is 125</Element>
+          <Element>T1 Receive Socket 8</Element>
+          <Element>The dsp code is 429996 bytes</Element>
+          <Element>Load dsp 1</Element>
+          <Element>Load dsp 2</Element>
+          <Element>Load dsp 3</Element>
+          <Element>Load dsp 4</Element>
+          <Element>BDC ESN: 06164000C11008200704063B</Element>
+          <Element>The type of receiver in this unit is 14</Element>
+          <Element>We are now in European mode</Element>
+          <Element>ADMIN STATE: 3</Element>
+          <Element>In selftest, 144 is beacon threshold</Element>
+          <Element>The type of bdc in this unit is 16</Element>
+          <Element>Root task is being exited</Element>
+          <Element>Done Open 9</Element>
+          <Element>Enhanced CPDSP board</Element>
+          <Element>RESET REASON: Reset Commanded RSR: 0</Element>
+          <Element>TP ESN: 06630000D010082007050130</Element>
+          <Element>WHOLE LMU ESN: TRULMU5207872AE</Element>
+          <Element>COLD START TRAP RECEIVER: FFFFFFFF, ffffffff</Element>
+          <Element>TP EQ ID 30 30 20 20 20 20 20 20</Element>
+          <Element>CP/DSP ESN: 06164100B1100820064700C2</Element>
+          <Element>0x0:  immr->i2c_i2cer = 0x10</Element>
+          <Element>POWER SUPPLY ESN: 06163400G0100820064300C1</Element>
+          <Element>DAUGHTER CARD ESN: 06160301B010082006440005</Element>
+          <Element>It is a TPOS receiver</Element>
+          <Element>GPS eng sw  is 0.4850266.0.5</Element>
+          <Element>This LMU is NOT AGPS capable</Element>
+          <Element>STRLEN tpsw is 6 (10.1.2)</Element>
+          <Element>GPS HAPPY:  wonderful state in getver 255!!</Element>
+          <Element>Proceeding GPS</Element>
+          <Element>Got GPS version, moving on</Element>
+          <Element>DSP 1 is now online.</Element>
+          <Element>DSP 2 is now online.</Element>
+          <Element>DSP 3 is now online.</Element>
+          <Element>DSP 4 is now online.</Element>
+          <Element>0x1e6e0a:  Changing to 250kHz</Element>
+          <Element>RECEIVER ESN: 06163900B0100820070403C2</Element>
+          <Element>Enter GPS message processing loop</Element>
+          <Element>GPS TIME NOW VALID</Element>
+          <Element>GPS eng sw  is 0.4850266.0.5</Element>
+          <Element>This LMU is NOT AGPS capable</Element>
+          <Element>STRLEN tpsw is 6 (10.1.2)</Element>
+          <Element>In GETVER2 - $GETVER 10.1.2 0.4850266.0.5 19 9e05 7437 06162200D010082006501DA6</Element>
+          <Element>pps_isr: initing epoch cntr, gps time = 891095261, loc_current_epoch = 1605090090</Element>
+          <Element>LMUDSP-R10.1BL011,  31 Jul 2007</Element>
+          <Element>LMUDSP-R10.1BL011,  31 Jul 2007</Element>
+          <Element>LMUDSP-R10.1BL011,  31 Jul 2007</Element>
+          <Element>LMUDSP-R10.1BL011,  31 Jul 2007</Element>
+          <Element>Receiver SPI EEPROM revision:  0x2</Element>
+          <Element>GPS ESN: 06162200D010082006501DA6</Element>
+          <Element>GPS ESN: 06162200D010082006501DA6</Element>
+          <Element>The random start time will be in 70 secs</Element>
+          <Element>CP RAM Memory Test has not been run</Element>
+          <Element>GPS TIME VALID found</Element>
+          <Element>CP RAM Memory Test has not been run</Element>
+          <Element> Booted From: Flash Area(2)</Element>
+          <Element>            </Element>
+          <Element> BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...</Element>
+          <Element> Built By: jhendel On: Wed May  2 14:34:44 EDT 2007</Element>
+          <Element> BuildTag: LMUBOOT-R10.1BL001</Element>
+          <Element> Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...</Element>
+          <Element> Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007</Element>
+          <Element> BuildTag: LMUFLASH-R10.1BL036</Element>
+          <Element> FPGA version is: LMULFPGA-R10.0BL125</Element>
+          <Element> GPS SW version is TPGPSFLASH-R10.1BL002</Element>
+          <Element> GPS FPGA version is TPGPSFPGA-R10.0BL019</Element>
+          <Element> GPS ENGINE version is GPS Engine 0.4850266.0.5</Element>
+          <Element> GPS Software Checksum is 9e05</Element>
+          <Element> GPS FPGA Checksum is 7437</Element>
+          <Element> GBE Not Configured</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>?G</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>lat 40.064621 long -75.460373 antenna delay 0 altitude 56</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>?CO</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>ESN:</Element>
+          <Element>GBE_CTLR:     NOT INSTALLED           </Element>
+          <Element>GBE_LNA:      NOT INSTALLED           </Element>
+          <Element>GBE:          NOT INSTALLED           </Element>
+          <Element>GBE CUST ESN: NOT INSTALLED           </Element>
+          <Element>LMU:          06162200D010082006501DA6</Element>
+          <Element>GPS RCVR:     06162200D010082006501DA6</Element>
+          <Element>RECEIVER:     06163900B0100820070403C2</Element>
+          <Element>BDC:          06164000C11008200704063B</Element>
+          <Element>PSUPPLY:      06163400G0100820064300C1</Element>
+          <Element>CP/DSP:       06164100B1100820064700C2</Element>
+          <Element>DCARD:        06160301B010082006440005</Element>
+          <Element>EBOARD:       NOT INSTALLED           </Element>
+          <Element>CUSTESN:      TRULMU5207872AE         </Element>
+          <Element>TPESN:        06630000D010082007050130</Element>
+          <Element>            </Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>SetNetwork 0</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>Warning: All DS0 Bits have been disabled</Element>
+          <Element>NetworkType: T1</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>Set56KMode 0</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>56KMode: 64 kbps</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>SetNetwork VarDCard</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>Warning: All DS0 Bits have been disabled</Element>
+          <Element>NetworkType: E1</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>ClrDS0Bits</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>All DS0s disabled...</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>EnableDS0Bit 1</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>DS0Bit1 enabled</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>SetFramingMode 0</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>FramingMode: NOMFNOCRC</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>SetLineMode 0</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>LineMode: HDB3</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>tshell</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>-></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>buildInfo</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>buildInfo</Element>
+          <Element>value = 21 = 0x15</Element>
+          <Element>-></Element>
+          <Element> BootRom Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...</Element>
+          <Element> Built By: jhendel On: Wed May  2 14:34:44 EDT 2007</Element>
+          <Element> BuildTag: LMUBOOT-R10.1BL001</Element>
+          <Element> Application Built From: /devvob/LMU-N/CP: element * CHECKEDOUT;element /devvob/releaseCandidate/LMU/...</Element>
+          <Element> Built By: jhendel On: Fri Sep 28 06:21:22 EDT 2007</Element>
+          <Element> BuildTag: LMUFLASH-R10.1BL036</Element>
+          <Element> FPGA version is: LMULFPGA-R10.0BL125</Element>
+          <Element> GPS SW version is TPGPSFLASH-R10.1BL002</Element>
+          <Element> GPS FPGA version is TPGPSFPGA-R10.0BL019</Element>
+          <Element> GPS ENGINE version is GPS Engine 0.4850266.0.5</Element>
+          <Element> GPS Software Checksum is 9e05</Element>
+          <Element> GPS FPGA Checksum is 7437</Element>
+          <Element> GBE Not Configured</Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>selftest_debug_flag=2</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>selftest_debug_flag=2</Element>
+          <Element>selftest_debug_flag = 0x40ab98: value = 2 = 0x2</Element>
+          <!-- TEST ONLY: The trailing mode prompt isn't on it's own line -->
+          <!--<Element>-> CURR FAN = 293 (294)</Element>-->
+          <Element>-></Element>
+          <Element>CURR FAN = 293 (294)</Element>
+          <Element>CURR FAN = 293 (294)</Element>
+          <Element>TD Timer L U-6000 O-6000  OKTMV 0</Element>
+          <Element>DTR ON. Dog reset</Element>
+          <Element>TD Timer L U-6100 O-6100  OKTMV 0</Element>
+          <Element>DTR ON. Dog reset</Element>
+          <Element>TD Timer L U-6200 O-6200  OKTMV 0</Element>
+          <Element>DTR ON. Dog reset</Element>
+          <Element>TD Timer L U-6300 O-6300  OKTMV 0</Element>
+          <Element>DTR ON. Dog reset</Element>
+          <Element>CURR FAN = 293 (294)</Element>
+          <Element>TD Timer L U-6400 O-6400  OKTMV 0</Element>
+          <Element>DTR ON. Dog reset</Element>
+          <Element>TD Timer L U-6500 O-6500  OKTMV 0</Element>
+          <Element>DTR ON. Dog reset</Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>selftest_debug_flag=0</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>TD Timer L U-6600 O-6600  OKTMV 0</Element>
+          <Element>DTR ON. Dog reset</Element>
+          <Element>selftest_debug_flag=0</Element>
+          <Element>selftest_debug_flag = 0x40ab98: value = 0 = 0x0</Element>
+          <Element>-></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>dshell</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>dshell</Element>
+          <Element>value = 0 = 0x0</Element>
+          <Element>-> CP RAM Memory Test has not been run</Element>
+          <Element> Booted From: Flash Area(2)</Element>
+          <Element> LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>etest 13</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>ETEST 13 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</Element>
+          <!-- TEST ONLY: Actual response does not include a prompt. Need to address -->
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>etest 15 3</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>ETEST 15 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>SEARCHBCN NONE</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>Clearing DBL</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+      <Step Type="Bootup">
+        <Command>?T</Command>
+        <Response Header="" Trailer="" Delimiter="&#x0D;&#x0A;" Delay="0">
+          <Element>TEMPERATURES: recvr 31 bdc 28 power supply 35</Element>
+          <Element>#GBE:          Controller 255 LNA 255</Element>
+          <Element>LMU></Element>
+        </Response>
+      </Step>
+    </Test>
+  </TestSet>
+</TestSets>
+          

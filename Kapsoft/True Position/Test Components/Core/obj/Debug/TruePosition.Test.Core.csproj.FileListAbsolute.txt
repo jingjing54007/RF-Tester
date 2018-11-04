@@ -1,0 +1,7 @@
+C:\Development\Kapsoft\True Position\Test Components\Core\bin\Debug\TruePosition.Test.Core.dll
+C:\Development\Kapsoft\True Position\Test Components\Core\bin\Debug\TruePosition.Test.Core.pdb
+C:\Development\Kapsoft\True Position\Test Components\Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Core\obj\Debug\TruePosition.Test.Core.dll
+C:\Development\Kapsoft\True Position\Test Components\Core\obj\Debug\TruePosition.Test.Core.pdb
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.Core.dll
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.Core.pdb

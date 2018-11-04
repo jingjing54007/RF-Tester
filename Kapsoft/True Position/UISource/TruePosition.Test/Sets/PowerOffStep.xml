@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="SigPowerOff">
+  <Step>
+    <Actor Name ="PowerSupply1">
+      <Command Type="GPIB">
+        <Format>OUTP:STAT OFF</Format>
+        </Command>
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+    </Actor>
+    <Timeout>0</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Description>Power Supply Off</Description>
+  </Step>
+</Test>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="1A">
+  <Step>
+    <Actor Name="Map">
+      <Type>Process</Type>
+      <SubType></SubType>
+      <Command Type="MAP">
+        <Format>{Global.MapExePathName} /S {Global.MapConfigName} /P "{Global.MapFolderPath}" /A /N 50000 /D /C</Format>
+      </Command>
+    </Actor>
+    <Timeout>20</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>Map Process</Description>
+  </Step>
+  <Step>
+    <Actor Name="SigGen">
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+      <Command Type="GPIB">
+        <Format>FREQ:CW {0} MHz</Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>876.23</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>2</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>SigGen Frequency</Description>
+  </Step>
+  <Step>
+    <Actor Name="SigGen">
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+      <Command Type="GPIB">
+        <Format>POW:AMPL {0} dBm</Format>
+        <Parameter Prompt="Power (dBm)" Access="Show">
+          <Value>-35.0</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>2</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>SigGen Power</Description>
+  </Step>
+  <Step>
+    <Actor Name="SigGen">
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+      <Command Type="GPIB">
+        <Format>OUTP:STAT ON</Format>
+      </Command>
+    </Actor>
+    <Timeout>2</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>SigGen On</Description>
+  </Step>
+  <Step>
+    <Actor Name="SMLC1">
+      <Type>Port</Type>
+      <SubType>Telnet</SubType>
+      <Command Type="SMLC">
+        <Format>vccollectdata {0} {Global.LMU1_ID} {1} {2} {3} {4} {5} {6} {7}</Format>
+        <Parameter Prompt="locationType" Access="Show">
+          <Value>gsm</Value>
+        </Parameter>
+        <Parameter Prompt="primSectorId" Access="Show">
+          <Value>1</Value>
+        </Parameter>
+        <Parameter Prompt="channelNumber" Access="Show">
+          <Value>955</Value>
+        </Parameter>
+        <Parameter Prompt="colorCode" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="priority" Access="Show">
+          <Value>3</Value>
+        </Parameter>
+        <Parameter Prompt="band" Access="Show">
+          <Value>3</Value>
+        </Parameter>
+        <Parameter Prompt="powerLevel" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+        <Parameter Prompt="locFlag" Access="Show">
+          <Value>2</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>10</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>Location Request Telnet Command</Description>
+  </Step>
+  <Step>
+    <Actor Name="SigGen">
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+      <Command Type="GPIB">
+        <Format>POW:AMPL {0} dBm</Format>
+        <Parameter Prompt="Power (dBm)" Access="Show">
+          <Value>-135.0</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>2</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>SigGen Power</Description>
+  </Step>
+  <Step>
+    <Actor Name="SigGen">
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+      <Command Type="GPIB">
+        <Format>OUTP:STAT OFF</Format>
+      </Command>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>SigGen Off</Description>
+  </Step>
+</Test>

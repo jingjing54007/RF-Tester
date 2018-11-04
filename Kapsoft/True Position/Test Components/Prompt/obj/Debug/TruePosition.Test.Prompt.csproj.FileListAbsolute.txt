@@ -1,0 +1,5 @@
+C:\Development\Kapsoft\True Position\Test Components\Prompt\bin\Debug\TruePosition.Test.Prompt.dll
+C:\Development\Kapsoft\True Position\Test Components\Prompt\bin\Debug\TruePosition.Test.Prompt.pdb
+C:\Development\Kapsoft\True Position\Test Components\Prompt\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Prompt\obj\Debug\TruePosition.Test.Prompt.dll
+C:\Development\Kapsoft\True Position\Test Components\Prompt\obj\Debug\TruePosition.Test.Prompt.pdb

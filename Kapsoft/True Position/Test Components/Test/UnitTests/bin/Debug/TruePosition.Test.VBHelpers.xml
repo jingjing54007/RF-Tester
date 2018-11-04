@@ -1,0 +1,35 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TruePosition.Test.VBHelpers
+</name>
+</assembly>
+<members>
+<member name="P:My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:TruePosition.Test.DataLayer.VBHelpers.Match(System.String,System.String)">
+	<summary>
+ Performs a VB 'like' operation comparing value against the provided pattern. Also supports T-SQL pattern matching wildcards.
+ </summary>
+	<param name="value">string to compare</param>
+	<param name="pattern">VB Like or T-SQL LIKE pattern to match</param>
+	<returns>true/false - match/no match</returns>
+</member><member name="T:TruePosition.Test.DataLayer.VBHelpers">
+	<summary>
+ Provides helpers for things that are only available in VB.NET.
+ </summary>
+</member>
+</members>
+</doc>

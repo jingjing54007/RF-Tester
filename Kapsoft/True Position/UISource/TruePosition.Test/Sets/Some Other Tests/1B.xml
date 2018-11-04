@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Type="Bootup" Name="1B">
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>G VarLatitude VarLongitude VarDelay VarAltitude</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like '*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>30</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>BOOT</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>pro</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'GPS TIME NOW VALID*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>180</Timeout>
+    <BeginState>BOOT</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>10</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>?G</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'lat VarLatitude long VarLongitude*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>SetV35Mode 0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'V35Mode: T1*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>ClrDS0Bits</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'All DS0s disabled…*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>EnableDS0Bit 1</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'DS0Bit1 enabled*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>Set56KMode 0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like '56KMode: 64 kbps*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>SetFramingMode 0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'FramingMode: ESF*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>SetLineMode 0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'LineMode: B8ZS*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>reset</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 't1_main.c*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>1000</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>BOOT</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>pro</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'GPS TIME NOW VALID*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>180</Timeout>
+    <BeginState>BOOT</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>10</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>etest 13</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like '*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>etest 15 3</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like '*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>dshell</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'LMU&gt;*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>TSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>?CO</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'ESN:*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'GPS RCVR:*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'RECEIVER:*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'BDC:*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'PSUPPLY*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'CP/DSP*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'DCARD*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'EBOARD:*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name="">
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>?T</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#xD;&#xA;">
+      <!--A response may contain multiple elements in the event one UUT response message contains multiple response elements separated by the response delimiter. (i.e. the ?CO command)-->
+      <Element>
+        <KeyExpression>value like 'TEMPERATURES:*'</KeyExpression>
+        <!--A response element may contain multiple expected responses in the event one response element contains multiple sub fields. (i.e. the temperature response)-->
+        <!--NOTE: If sub fields exist in a response element, each must have a unique key specified. The sub field value is expected to follow the key directly, delimited by one or more whitespace characters.-->
+        <Expected Trim="true">
+          <!--TODO: Add one or more expressions to test the response element value against.-->
+          <!--1. Expressions are in the form of a simple expression, i.e. value <= 70, value like 'recvr:*', value len 24-->
+          <!--2. Expressions may only contain a single parameter operand named <value> evaluated against a constant integer, double, or string.-->
+          <!--3. String constants must be enclosed in single quotes, i.e. 'rcvr:*'-->
+          <!--4. Supported operators: =, !=, <>, <=, >=, <, >, len, like-->
+          <!--5. The like operator supports both VB and T-SQL like operation wildcards.-->
+          <!--6. Multiple expressions must all be true for a response element to pass evaluation.-->
+          <!--[Optional] <KeyExpression>value like 'recvr*'</KeyExpression>-->
+          <Expression>
+            <!--TODO: Add at least one expression.-->
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+</Test>

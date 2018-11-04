@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="Recorder">
+  <Step>
+    <Actor Name ="SomeFile">
+      <Command Type="Recorder">
+        <Format>{Global.LogFileFolder}\{0}</Format>
+        <Parameter Prompt="Filename" Access="Show">
+          <Value>Everything.txt</Value>
+        </Parameter>
+      </Command>
+      <Type>Recorder</Type>
+      <SubType>File</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="">
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like '*'</Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>false</CompleteOnTimeout>
+    <Description>Log File Recorder</Description>
+  </Step>
+</Test>

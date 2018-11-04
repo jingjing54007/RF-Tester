@@ -1,0 +1,16 @@
+07/19/2010 01:00:32 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 BIT 6
+07/19/2010 01:00:32 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 Noise Level: Channel   28 -   43: -84 -84 -83 -83 -83 -84 -83 -83 -83 -84 -83 -83 -84 -83 -84 -84
+07/19/2010 01:00:32 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 Noise Floor: Channel   28 -   43: -83 -84 -84 -84 -84 -84 -84 -84 -83 -83 -83 -84 -83 -84 -84 -84
+07/19/2010 01:00:32 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 Result: Failed
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 907.8 100 BIT 6
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 907.8 100 Noise Level: Channel   28 -   43: -84 -84 -83 -83 -83 -84 -83 -83 -83 -84 -83 -83 -84 -83 -84 -84
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 907.8 100 Noise Floor: Channel   28 -   43: -83 -84 -84 -84 -84 -84 -84 -84 -83 -83 -83 -84 -83 -84 -84 -84
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 907.8 100 Result: Failed
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 BIT 6
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 Noise Level: Channel   28 -   43: -84 -84 -83 -83 -83 -84 -83 -83 -83 -84 -83 -83 -84 -83 -84 -84
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 Noise Floor: Channel   28 -   43: -83 -84 -84 -84 -84 -84 -84 -84 -83 -83 -83 -84 -83 -84 -84 -84
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 Result: Failed
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 BIT 6
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 Noise Level: Channel   28 -   43: -84 -84 -83 -83 -83 -84 -83 -83 -83 -84 -83 -83 -84 -83 -84 -84
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 Noise Floor: Channel   28 -   43: -83 -84 -84 -84 -84 -84 -84 -84 -83 -83 -83 -84 -83 -84 -84 -84
+07/19/2010 01:00:37 AM SNMP_tpLmuDataPathPwrMeasTest 64.2.1.37 6 1 0 28 876 100 Result: Failed

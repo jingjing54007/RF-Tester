@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2879427E-90A5-41C3-9B74-345E8CC0D06D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TruePosition.Test.UI</RootNamespace>
+    <AssemblyName>TruePosition.Test.UI</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\Output\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConfigManager.cs" />
+    <Compile Include="GlobalSettings.cs" />
+    <Compile Include="IHandlerTarget.cs" />
+    <Compile Include="TestManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data Layer\TruePosition.Test.DataLayer.csproj">
+      <Project>{ADE4F91F-D835-4CAA-9C7D-034892532E70}</Project>
+      <Name>TruePosition.Test.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Data Layer\VBHelpers\TruePosition.Test.VBHelpers.vbproj">
+      <Project>{17F1BDCB-3125-4328-A6F0-C210EE4F2166}</Project>
+      <Name>TruePosition.Test.VBHelpers</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\IO\TruePosition.Test.IO.csproj">
+      <Project>{D3BB6254-43B0-468C-87CB-5327F9C965B5}</Project>
+      <Name>TruePosition.Test.IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Process\TruePosition.Test.Process.csproj">
+      <Project>{F99FA9A9-0242-421B-B7BD-6A8A90755902}</Project>
+      <Name>TruePosition.Test.Process</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Prompt\TruePosition.Test.Prompt.csproj">
+      <Project>{3C44D61F-42D5-4F9C-BE9B-B6FC93CE4A5A}</Project>
+      <Name>TruePosition.Test.Prompt</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QF\TruePosition.Test.QF.csproj">
+      <Project>{F8973620-5C28-4F7F-8533-5A6C90934678}</Project>
+      <Name>TruePosition.Test.QF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Recorder\TruePosition.Test.Recorder.csproj">
+      <Project>{D61107FB-B4F1-48AB-A89A-6CDF925FB3DF}</Project>
+      <Name>TruePosition.Test.Recorder</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

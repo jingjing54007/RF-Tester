@@ -1,0 +1,8 @@
+C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\bin\Debug\LaunchTest.exe
+C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\bin\Debug\LaunchTest.pdb
+C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\obj\Debug\LaunchTest.Form1.resources
+C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\obj\Debug\LaunchTest.Properties.Resources.resources
+C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\obj\Debug\LaunchTest.csproj.GenerateResource.Cache
+C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\obj\Debug\LaunchTest.exe
+C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\obj\Debug\LaunchTest.pdb

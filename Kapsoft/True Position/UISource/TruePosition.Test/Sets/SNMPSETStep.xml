@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="SMTP_SET">
+  <Step>
+    <Actor Name ="SNMP">
+      <Command Type="Snmp">
+        <Format>-Set -c={Global.LMU1_ID} {Global.SMLCVirtual} {0} {1} {2}</Format>
+        <Parameter Prompt="OID" Access="Show">
+          <Value>1.3.6.1.4.1.12060.1.2.5.1.2.1</Value>
+        </Parameter>
+        <Parameter Prompt="ValueType" Access="Show">
+          <Value>i</Value>
+        </Parameter>
+        <Parameter Prompt="Value" Access="Show">
+          <Value>33</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Snmp</SubType>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Description>SNMP Set</Description>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="">
+      <Element>
+        <KeyExpression>value like '*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value = 33</Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+</Test>

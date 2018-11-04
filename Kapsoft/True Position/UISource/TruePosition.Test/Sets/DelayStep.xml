@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="UIDelay">
+  <Step>
+    <Actor Name="UIDelay">
+      <Type>Prompt</Type>
+      <SubType></SubType>
+      <Command Type="Prompt">
+        <Format></Format>
+      </Command>
+    </Actor>
+    <Timeout>60</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>false</CompleteOnTimeout>
+    <Description>Delay</Description>
+  </Step>
+</Test>

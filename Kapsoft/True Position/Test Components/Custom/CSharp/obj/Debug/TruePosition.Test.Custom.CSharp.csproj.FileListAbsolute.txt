@@ -1,0 +1,5 @@
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.Custom.CSharp.dll
+C:\Development\Kapsoft\True Position\Test Components\Output\TruePosition.Test.Custom.CSharp.pdb
+C:\Development\Kapsoft\True Position\Test Components\Custom\CSharp\obj\Debug\ResolveAssemblyReference.cache
+C:\Development\Kapsoft\True Position\Test Components\Custom\CSharp\obj\Debug\TruePosition.Test.Custom.CSharp.dll
+C:\Development\Kapsoft\True Position\Test Components\Custom\CSharp\obj\Debug\TruePosition.Test.Custom.CSharp.pdb

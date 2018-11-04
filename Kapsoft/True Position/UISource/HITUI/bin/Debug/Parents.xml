@@ -1,0 +1,142 @@
+<?xml version="1.0" standalone="yes"?>
+<dsParents xmlns="http://www.tempuri.org/dsParents.xsd">
+  <xs:schema id="dsParents" targetNamespace="http://www.tempuri.org/dsParents.xsd" xmlns:mstns="http://www.tempuri.org/dsParents.xsd" xmlns="http://www.tempuri.org/dsParents.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="dsParents" msdata:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="Daughters">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Age" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Parents">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FirstName" type="xs:string" minOccurs="0" />
+                <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="LastName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="Sons">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Age" type="xs:int" minOccurs="0" />
+                <xs:element name="ID" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="Name" type="xs:string" minOccurs="0" />
+                <xs:element name="Inserted" type="xs:string" minOccurs="0" />
+                <xs:element name="ParentID" type="xs:int" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Daughters" />
+        <xs:field xpath="mstns:ID" />
+      </xs:unique>
+      <xs:unique name="Parents_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Parents" />
+        <xs:field xpath="mstns:ID" />
+      </xs:unique>
+      <xs:unique name="Sons_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Sons" />
+        <xs:field xpath="mstns:ID" />
+      </xs:unique>
+      <xs:keyref name="ParentsSons" refer="Parents_Constraint1">
+        <xs:selector xpath=".//mstns:Sons" />
+        <xs:field xpath="mstns:ParentID" />
+      </xs:keyref>
+      <xs:keyref name="ParentsDaughters" refer="Parents_Constraint1">
+        <xs:selector xpath=".//mstns:Daughters" />
+        <xs:field xpath="mstns:ParentID" />
+      </xs:keyref>
+    </xs:element>
+  </xs:schema>
+  <Daughters>
+    <Age>13</Age>
+    <ID>1</ID>
+    <Name>Susan</Name>
+    <ParentID>1</ParentID>
+  </Daughters>
+  <Daughters>
+    <Age>5</Age>
+    <ID>2</ID>
+    <Name>Irene</Name>
+    <ParentID>2</ParentID>
+  </Daughters>
+  <Daughters>
+    <Age>10</Age>
+    <ID>3</ID>
+    <Name>Martha</Name>
+    <ParentID>2</ParentID>
+  </Daughters>
+  <Daughters>
+    <Age>17</Age>
+    <ID>4</ID>
+    <Name>Louisa</Name>
+    <ParentID>3</ParentID>
+  </Daughters>
+  <Daughters>
+    <Age>4</Age>
+    <ID>5</ID>
+    <Name>Sadie</Name>
+    <ParentID>3</ParentID>
+  </Daughters>
+  <Parents>
+    <FirstName>John</FirstName>
+    <ID>1</ID>
+    <LastName>SmithNERD</LastName>
+  </Parents>
+  <Parents>
+    <FirstName>Mike</FirstName>
+    <ID>2</ID>
+    <LastName>Jones</LastName>
+  </Parents>
+  <Parents>
+    <FirstName>Helene</FirstName>
+    <ID>3</ID>
+    <LastName>Andersson</LastName>
+  </Parents>
+  <Parents>
+    <FirstName>Nick</FirstName>
+    <ID>4</ID>
+    <LastName>Sandberg</LastName>
+  </Parents>
+  <Parents>
+    <FirstName>Joe</FirstName>
+    <ID>5</ID>
+    <LastName>Black</LastName>
+  </Parents>
+  <Sons>
+    <Age>12</Age>
+    <ID>1</ID>
+    <Name>Tom</Name>
+    <Inserted>DeanoROCKS</Inserted>
+    <ParentID>1</ParentID>
+  </Sons>
+  <Sons>
+    <Age>14</Age>
+    <ID>2</ID>
+    <Name>Louis</Name>
+    <Inserted>DeanoROCKS</Inserted>
+    <ParentID>1</ParentID>
+  </Sons>
+  <Sons>
+    <Age>7</Age>
+    <ID>3</ID>
+    <Name>Samuel</Name>
+    <ParentID>3</ParentID>
+  </Sons>
+  <Sons>
+    <Age>8</Age>
+    <ID>4</ID>
+    <Name>Mark</Name>
+    <ParentID>4</ParentID>
+  </Sons>
+</dsParents>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="SigGenPower">
+  <Step>
+    <Actor Name ="SigGen">
+      <Command Type="GPIB">
+        <Format>POW:AMPL {0} dBm</Format>
+        <Parameter Prompt="Power (dBm)" Access="Show">
+          <Value>-35.0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Gpib</SubType>
+    </Actor>
+    <Timeout>2</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>true</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+    <Description>SigGen Power</Description>
+  </Step>
+</Test>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="Console">
+  <Step>
+    <Actor Name="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="LMU">
+        <Format></Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>G VarLatitude VarLongitude VarDelay VarAltitude</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>30</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Description>LMU Console Command</Description>
+    <Response Delimiter="&#xD;&#xA;" Header="" Trailer="&gt;">
+      <Element>
+        <KeyExpression>value like '*'</KeyExpression>
+        <Expected Trim="true">
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage></FailureMessage>
+        </Expected>
+      </Element>
+    </Response>
+  </Step>  
+</Test>

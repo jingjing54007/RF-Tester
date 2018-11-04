@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Name="1A">
+  <Step>
+    <Actor Name="WaitingforYou">
+      <Type>Prompt</Type>
+      <SubType></SubType>
+      <Command Type="Prompt">
+        <Format>{0}</Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>Shall we do another SNMP Set?</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>0</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>false</CompleteOnTimeout>
+    <Description></Description>
+  </Step>
+</Test>

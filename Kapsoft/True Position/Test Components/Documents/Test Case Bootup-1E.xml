@@ -1,0 +1,1000 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Test Type="Bootup" Name="1E">
+  <Step>
+    <Actor Name ="LaunchTest">
+      <Command Type="MAP">
+        <Format>C:\Development\Kapsoft\True Position\Test Components\Test\LaunchTest\bin\Debug\launchtest.exe</Format>
+      </Command>
+      <Type>Process</Type>
+      <SubType></SubType>
+    </Actor>
+    <Timeout>30</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <!-- Test 21a Step -->
+  <Step>
+    <Actor Name ="Test21aOutput">
+      <Command Type="Recorder">
+        <FilenameFormat>{Global.LogFileFolder}\{0:MM-dd-yyy}_{1:hhmmss}_GATE_DATA_FILE.LOG</FilenameFormat>
+        <EntryFormat>{0:MM/dd/yyyy} {1:hh:mm:ss tt} SNMP_tpLmuDataPathPwrMeasTest {Global.LMU1_ID} {2} 1 {3} {Response[3]} {Command[3]} 100 {Response[*]}</EntryFormat>
+        <Parameter Prompt="Date" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+        <Parameter Prompt="Time" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+        <Parameter Prompt="Test #" Access="Show">
+          <Value>6</Value>
+        </Parameter>
+        <Parameter Prompt="Port #" Access="Show">
+          <Value>0</Value>
+        </Parameter>
+      </Command>
+      <Type>Recorder</Type>
+      <SubType>File</SubType>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like 'BIT 6*'</Expression>
+          <Destination>
+            <Name>Command</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like 'BIT 6*Noise Level:*'</Expression>
+          <Destination>
+            <Name>Response</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+  <!-- TDOA Step -->
+  <Step>
+    <Actor Name ="SomeTDOATest">
+      <Command Type="Recorder">
+        <FilenameFormat>{Global.LogFileFolder}\LMU_TDOA_{0:MMddyy}_{1:hhmmss}_g_{Global.LMU1CommunityString}_{Global.Band}_{Command[7]}.txt</FilenameFormat>
+        <EntryFormat>{Response[*]}</EntryFormat>
+        <Parameter Prompt="Date" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+        <Parameter Prompt="Time" Access="Show">
+          <Value>Now</Value>
+        </Parameter>
+      </Command>
+      <Type>Recorder</Type>
+      <SubType>File</SubType>
+    </Actor>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like 'TDOA*'</Expression>
+          <Destination>
+            <Name>Command</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like '*TDOA Command*'</Expression>
+          <Destination>
+            <Name>Response</Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+  </Step>
+  <!--<Step>
+    <Actor Name ="SMLC1">
+      <Command Type="SMLC">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>Location</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Telnet</SubType>
+    </Actor>
+    <Timeout>60</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>-->
+  <Step>
+    <Actor Name ="WaitingforYou">
+      <Command Type="Prompt">
+        <Format>{0}</Format>
+        <Parameter Prompt="Command" Access="Show">
+          <Value>Shall we continue?</Value>
+        </Parameter>
+      </Command>
+      <Type>Prompt</Type>
+      <SubType></SubType>
+    </Actor>
+    <Timeout>0</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <!--<Step>
+    <Actor Name ="SomeFile">
+      <Command Type="Recorder">
+        <Format>{Global.LogFileFolder}\{0}</Format>
+        <Parameter Prompt="Filename" Access="Show">
+          <Value>Everything.txt</Value>
+        </Parameter>
+      </Command>
+      <Type>Recorder</Type>
+      <SubType>File</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="">
+      <Element>
+        <KeyExpression></KeyExpression>
+        <Expected Trim="true">
+          <Expression>value like '*'</Expression>
+          <Destination>
+            <Name></Name>
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <Retries>0</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>false</CompleteOnTimeout>
+  </Step>-->
+  <Step>
+    <Actor Name ="LMU1">
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+      <Command Type="TDOA">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>tdoa 0 1 1250 0 1 16 300 0 0 1 0 0 0 0 0 4 0</Value>
+        </Parameter>
+      </Command>
+    </Actor>
+    <Timeout>10</Timeout>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+    <CompleteOnTimeout>true</CompleteOnTimeout>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>G</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like 'LMU>'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>60</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>reset</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMUBOOT&gt;">
+      <Element>
+        <KeyExpression>value like 'Booted From:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>1000</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>BOOT</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>pro</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like '*Booted From:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>1000</Timeout>
+    <BeginState>BOOT</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>?G</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like '*long*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>10</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>?CO</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Header="" Trailer="&gt;" Delimiter="&#x0D;&#x0A;">
+      <Element>
+        <KeyExpression>value like 'LMU:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 15</Expression>
+          <Expression>value validesn</Expression>
+          <Expression>value not same</Expression>
+          <Expression>value not like '*TRULMU*'</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid Chassis ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'CUSTESN:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 15</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid Customer Chassis ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'GPS RCVR:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Expression>value validesn</Expression>
+          <Expression>value not same</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid GPS Receiver ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'RECEIVER:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value len 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid Receiver ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'BDC:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid BDC ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'PSUPPLY:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid Power Supply ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'CP/DSP:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value len 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>CP/DSP not found</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'DCARD:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Expression>value validesn</Expression>
+          <Expression>value not same</Expression>
+          <Expression>value not like 'DEBUG'</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid DCARD ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'EBOARD:*'</KeyExpression>
+        <Expected Trim="false">
+          <Expression>value lenge 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid EBOARD ESN</FailureMessage>
+        </Expected>
+      </Element>
+      <Element>
+        <KeyExpression>value like 'TPESN:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>value lenge 24</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Invalid TP ESN</FailureMessage>
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>SetNetwork 0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like 'NetworkType: T1'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>4</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>Set56KMode 0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like '56KMode: 64 kbps*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>4</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>SetNetwork VarDCard</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like 'NetworkType:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>4</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>ClrDS0Bits</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <!--<KeyExpression>value like 'All DS0s disabled..*'</KeyExpression>-->
+        <KeyExpression>value like 'Chicken*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>4</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>true</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>EnableDS0Bit 1</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like 'DS0Bit1 enabled*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>4</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>SetFramingMode 0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like 'FramingMode:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>4</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>SetLineMode 0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like 'LineMode:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>4</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>tshell</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="-&gt;">
+      <Element>
+        <KeyExpression>value like '-&gt;*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>1</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>TSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>buildInfo</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="-&gt;">
+      <Element>
+        <KeyExpression>value like '*->*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>TSHELL</BeginState>
+    <EndState>TSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>selftest_debug_flag=2</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="-&gt;">
+      <Element>
+        <KeyExpression>value like '*->*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <BeginState>TSHELL</BeginState>
+    <EndState>TSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>selftest_debug_flag=0</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="-&gt;">
+      <Element>
+        <KeyExpression>value like '*->*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>1</Timeout>
+    <BeginState>TSHELL</BeginState>
+    <EndState>TSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>dshell</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like '*LMU&gt;*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>TSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>reset</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMUBOOT&gt;">
+      <Element>
+        <KeyExpression>value like 'Booted From:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>1000</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>BOOT</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>pro</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like '*Booted From:*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>1000</Timeout>
+    <BeginState>BOOT</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>2</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>etest 13</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like '*LMU>*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>etest 15 3</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like '*LMU>*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>5</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>SEARCHBCN NONE</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like '*LMU>*'</KeyExpression>
+        <Expected Trim="true">
+          <Expression>
+          </Expression>
+          <Destination>
+            <Name />
+            <Default />
+          </Destination>
+          <FailureMessage />
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>2</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+  <Step Type="Bootup">
+    <Actor Name ="LMU1">
+      <Command Type="LMU">
+        <Parameter Prompt="Command" Access="Show">
+          <Value>?T</Value>
+        </Parameter>
+      </Command>
+      <Type>Port</Type>
+      <SubType>Serial</SubType>
+    </Actor>
+    <Response Delimiter="&#x0D;&#x0A;" Header="" Trailer="LMU&gt;">
+      <Element>
+        <KeyExpression>value like 'TEMPERATURES:*'</KeyExpression>
+        <Expected Trim="true">
+          <KeyExpression>value like '*recvr*'</KeyExpression>
+          <Expression>value &gt;= -10</Expression>
+          <Expression>value &lt;= 70</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Receiver Temperature outside limits</FailureMessage>
+        </Expected>
+        <Expected Trim="true">
+          <KeyExpression>value like '*bdc*'</KeyExpression>
+          <Expression>value &gt;= -10</Expression>
+          <Expression>value &lt;= 28</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Receiver Temperature outside limits</FailureMessage>
+        </Expected>
+        <Expected Trim="true">
+          <KeyExpression>value like '*power supply*'</KeyExpression>
+          <Expression>value &gt;= -10</Expression>
+          <Expression>value &lt;= 35</Expression>
+          <Destination>
+            <Name></Name>
+            <Default></Default>
+          </Destination>
+          <FailureMessage>Receiver Temperature outside limits</FailureMessage>
+        </Expected>
+      </Element>
+    </Response>
+    <Timeout>15</Timeout>
+    <BeginState>DSHELL</BeginState>
+    <EndState>DSHELL</EndState>
+    <Retries>1</Retries>
+    <ContinueOnError>false</ContinueOnError>
+  </Step>
+</Test>
